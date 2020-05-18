@@ -41,8 +41,15 @@ h6 {
   font-weight: 700;
 }
 
+.text-faded-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+  font-size: x-large;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
 }
 
 /* Map */
@@ -93,7 +100,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-meguro1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +220,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/profile2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,6 +232,41 @@ h6 {
   display: block;
   max-width: 30rem;
 }
+
+.callout2 {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/profile2.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.callout2 h2 {
+  color:rgb(248, 248, 246); 
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 40rem;
+}
+
+.callout3 {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/tubuyaki.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.callout3 h2 {
+  color:#1d809f; 
+  font-size: 3.2rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+  align-self: center;
+}
+
 
 .portfolio-item {
   display: block;
@@ -363,3 +405,23 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+.profile {
+  color: rgb(241, 238, 238); 
+  font-size: 20px
+
+}
+
+.gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  }
+  .gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  }
