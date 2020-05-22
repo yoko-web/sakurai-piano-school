@@ -21,6 +21,9 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/jquery-ui.css" rel="stylesheet">
+
+
 
 </head>
 
@@ -262,7 +265,7 @@
 </section>
 <!--voice end-->
 
-<!--FAQ-->
+<!--FAQ--
 <section class="content-section">
   <div class="container">
     <div class="row">
@@ -362,7 +365,49 @@
   </div>
   </div>
   </div>
-</section>
+</section>-->
+
+<!--FAQ-->
+<section class="content-section">
+  <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2 class="section-title" id="faq">よくあるご質問</h2>
+        </div>
+        <div class="col-12 text-left">
+      
+          <div class="card-body">
+            <div id="accordion">
+              <h3>発表会はありますか？</h3>
+              <div>
+                <p>一年半毎に、近隣の文化会館にて行っています。お子様から大人の方までご参加いただけています（ご参加は希望制です）。</p>
+              </div>
+              <h3>3歳からピアノレッスンは可能ですか？</h3>
+              <div>
+                <p>レッスン開始に一番適しているのは5歳くらいからですが、強いご希望があり、言葉がわかってお話を聞ければ大丈夫です。年齢に合わせたレッスン展開をさせていただいています。</p>
+              </div>
+              <h3>年齢がある程度高くなってからピアノを始めても大丈夫でしょうか？</h3>
+              <div>
+                <p>もちろん大丈夫です！<br>ピアノはいくつからでも始められますし、理屈がわかる年齢からの開始であれば、合理的にレッスンを進め、楽しむことができます。</p>
+              </div>
+              <h3>家にピアノが無くてもピアノは習えますか？</h3>
+              <div>
+                <p>アコースティックピアノ、電子ピアノがあればスムーズにレッスンを開始できますけれども、最初の1〜2年はキーボードでもカバーできると思います。楽器が無くて可能なのは、最初の3ヶ月くらいまで、と感じます。</p>
+              </div>
+              <h3>振替レッスンなどの設定はどのようになっていますか？</h3>
+              <div>
+               <p>講師側の都合でお休みした際には、ご都合を伺って振替レッスンを行っています。<br>生徒さんのご都合でお休みされた場合は、原則としましては振替レッスンは行わない設定とさせていただいています。 （お休みが月に一回までは欠席。二回以上になる際には柔軟に対応させていただいています。また、欠席された場合のワンサード制も検討しております。）振替レッスンや、休会についてのガイドラインは別途お問い合わせください。</p>
+              </div>
+              <h3>駐車場はありますか？</h3>
+              <div>
+                <p>いまのところ駐車場を備えておりません。<br>近隣のタイムズやスーパー駐車場に停めていらっしゃる方が殆どです。この先、駐車場確保を検討しています。今しばらくお待ちいただけたら幸いです。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </section>
 
 <!--fee start-->
 <section class="content-section">
@@ -487,5 +532,16 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  
+    <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
 </body>
 </html>
