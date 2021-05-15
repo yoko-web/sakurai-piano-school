@@ -37,11 +37,11 @@ $(function () {
     $images.on('load error', imgLoaded).each(function () {
       // cached images don't fire load sometimes, so we reset src.
       if (this.complete || this.complete === undefined) {
-        var src = this.src
-        // webkit hack from http://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
+        var src = this.src;
+        // webkit hack from https://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
         // data uri bypasses webkit log warning (thx doug jones)
-        this.src = blank
-        this.src = src
+        this.src = blank;
+        this.src = src;
       }
     })
 
@@ -86,21 +86,21 @@ $(function () {
       },
       _initCarousel = function () {
         // we are using the elastislide plugin:
-        // http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/
+        // https://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/
         $esCarousel.show().elastislide({
           imageW: 65,
           onClick: function ($item) {
-            if (anim) return false
-            anim = true
+            if (anim) return false;
+            anim = true;
             // on click show image
-            _showImage($item)
+            _showImage($item);
             // change current
-            current = $item.index()
+            current = $item.index();
           },
-        })
+        });
 
         // set elastislide's current to current
-        $esCarousel.elastislide('setCurrent', current)
+        $esCarousel.elastislide("setCurrent", current);
       },
       _addViewModes = function () {
         // top right buttons: hide / show carousel
