@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import Facebook from "./97580-facebook.json";
+import Facebook from "./38798-facebook-logo-effect.json";
 import Instagram from "./96175-instagram.json";
 import Twitter from "./18887-twitter-notification.json";
 import YouTube1 from "./76274-youtube-logo.json";
@@ -13,10 +13,10 @@ type Props = {
 
 export const IconsBlock = ({ inView }: Props) => {
   return (
-    <div className="sticky inset-y-0">
-      <div className="container flex justify-center mx-auto">
+    <div className="sticky inset-y-0 -left-4 sm:left-0">
+      <div className="flex justify-center mx-0 sm:mx-auto flex-wrap">
         <ul className="flex mb-3">
-          <li className="pr-3">
+          <li className="sm:pr-3">
             <a
               href="https://www.facebook.com/profile.php?id=100050932493512&fref=profile_friend_list&hc_location=friends_tab"
               target="_blank"
@@ -25,7 +25,7 @@ export const IconsBlock = ({ inView }: Props) => {
               <Lottie animationData={Facebook} className="h-16 w-16" />
             </a>
           </li>
-          <li className="pr-3">
+          <li className="sm:pr-3">
             <a
               href="https://twitter.com/PianoSakurai"
               target="_blank"
@@ -37,7 +37,7 @@ export const IconsBlock = ({ inView }: Props) => {
           
           {/* </ul>
         <ul className="flex mb-5"> */}
-          <li className="pr-3">
+          <li className="sm:pr-3">
             <a
               href="https://www.youtube.com/user/TWINBELLKEIYAN"
               target="_blank"
@@ -46,7 +46,7 @@ export const IconsBlock = ({ inView }: Props) => {
               <Lottie animationData={YouTube2} className="h-16 w-16" />
             </a>
           </li>
-          <li className="pr-3">
+          <li className="sm:pr-3">
             <a
               href="https://www.instagram.com/mintsakurai"
               target="_blank"
@@ -55,7 +55,7 @@ export const IconsBlock = ({ inView }: Props) => {
               <Lottie animationData={Instagram} className="h-20 w-20" />
             </a>
           </li>
-          <li className="pt-1 pr-3">
+          <li className="pt-1">
             <a
               href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
               target="_blank"
@@ -65,7 +65,7 @@ export const IconsBlock = ({ inView }: Props) => {
               <div className="absolute mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full"/>
               <Lottie
                 animationData={YouTube1}
-                className="absolute h-20 w-20"
+                className="absolute h-16 w-16"
               />
             </a>
           </li>
