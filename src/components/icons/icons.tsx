@@ -4,8 +4,14 @@ import Instagram from "./96175-instagram.json";
 import Twitter from "./18887-twitter-notification.json";
 import YouTube1 from "./76274-youtube-logo.json";
 import YouTube2 from "./98802-youtube.json";
+import { CSSProperties } from "react";
 
-export const IconsBlock = () => {
+type Props = {
+  inView: boolean;
+  className?: CSSProperties;
+};
+
+export const IconsBlock = ({ inView }: Props) => {
   return (
     <div className="sticky inset-y-0">
       <div className="container flex justify-center mx-auto">

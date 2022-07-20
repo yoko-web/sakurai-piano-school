@@ -1,9 +1,17 @@
-import type { NextPage } from "next";
 import Head from "next/head";
 import { HeaderBlock } from "../components/header";
 import { IconsBlock } from "../components/icons";
+import { useInView } from "react-intersection-observer";
+import { FC, ReactNode } from "react";
 
-const Home: NextPage = () => {
+type Props = {
+  className?: string;
+  children: ReactNode;
+  inView?: boolean;
+};
+
+const Home: FC<Props> = () => {
+  const { inView, ref } = useInView({ threshold: 0 });
   return (
     <div className="relative min-h-screen">
       <Head>
@@ -17,7 +25,7 @@ const Home: NextPage = () => {
       </Head>
 
       <HeaderBlock />
-      <IconsBlock />
+      <IconsBlock inView={inView} />
     </div>
   );
 };
