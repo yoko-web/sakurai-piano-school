@@ -15,14 +15,14 @@ export const HeaderBlock: NextPage = () => {
         id="page-top"
       >
         <div className="container text-center my-auto">
-          <h1 className="mb-10 text-6xl text-white">音の世界へ</h1>
-          <h3 className="mb-10 text-xl text-white">
+          <h1 className="mb-10 text-6xl text-white font-black">音の世界へ</h1>
+          <h3 className="mb-10 text-xl text-white font-bold">
             あなたの音楽旅行は 櫻井ピアノスクール とともにここから始まります。
             <br />
             貴方の目的地はどこですか？
           </h3>
           <a
-            className="bg-[#126a87] text-white text=lg px-10 py-6 rounded  js-scroll-trigger"
+            className="bg-[#126a87] text-white text=lg px-10 py-6 rounded font-bold js-scroll-trigger"
             href="#intro"
           >
             楽しさと、美しさを分かち合う

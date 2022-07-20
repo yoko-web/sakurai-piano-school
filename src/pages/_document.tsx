@@ -1,8 +1,59 @@
+import { NextPage } from "next";
 import { Head, Html, Main, NextScript } from "next/document";
-const MyDocument = () => {
+const MyDocument: NextPage = () => {
   return (
     <Html lang="ja">
       <Head>
+        {/* <title>音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール</title> */}
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        {/* <!-- Primary Meta Tags --> */}
+        <meta
+          name="title"
+          content="音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール"
+        />
+        <meta
+          name="description"
+          content="座間市のピアノ教室 櫻井ピアノスクールのご案内。音楽を通してワクワクすること。みんなが楽しくなることをプロデュースすること。音楽への情熱を楽しさにすること。これらを最も大切なことと考え、日々レッスンに当たらさせていただいています。"
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sakuraipiano.com/" />
+        <meta
+          property="og:title"
+          content="音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール"
+        />
+        <meta
+          property="og:description"
+          content="座間市のピアノ教室 櫻井ピアノスクールのご案内。音楽を通してワクワクすること。みんなが楽しくなることをプロデュースすること。音楽への情熱を楽しさにすること。これらを最も大切なことと考え、日々レッスンに当たらさせていただいています。"
+        />
+        <meta
+          property="og:image"
+          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+        />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://sakuraipiano.com/" />
+        <meta
+          property="twitter:title"
+          content="音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール"
+        />
+        <meta
+          property="twitter:description"
+          content="座間市のピアノ教室 櫻井ピアノスクールのご案内。音楽を通してワクワクすること。みんなが楽しくなることをプロデュースすること。音楽への情熱を楽しさにすること。これらを最も大切なことと考え、日々レッスンに当たらさせていただいています。"
+        />
+        <meta
+          property="twitter:image"
+          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+        />
+        <meta name="twitter:image:width" content="1200" />
+        <meta name="twitter:image:height" content="630" />
+        <meta name="author" content="Yoko Iwasaki"></meta>
         <meta
           name="msapplication-square70x70logo"
           content="/favicon/site-tile-70x70.png"
