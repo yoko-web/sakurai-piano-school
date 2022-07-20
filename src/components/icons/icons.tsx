@@ -34,18 +34,7 @@ export const IconsBlock = ({ inView }: Props) => {
               <Lottie animationData={Twitter} className="h-12 w-12 mt-2" />
             </a>
           </li>
-          <li className="pt-1 pr-3">
-            <a
-              href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Lottie
-                animationData={YouTube1}
-                className="h-16 w-16 rounded-full"
-              />
-            </a>
-          </li>
+          
           {/* </ul>
         <ul className="flex mb-5"> */}
           <li className="pr-3">
@@ -64,6 +53,20 @@ export const IconsBlock = ({ inView }: Props) => {
               rel="noreferrer"
             >
               <Lottie animationData={Instagram} className="h-20 w-20" />
+            </a>
+          </li>
+          <li className="pt-1 pr-3">
+            <a
+              href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative"
+            >
+              <div className="absolute mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full"/>
+              <Lottie
+                animationData={YouTube1}
+                className="absolute h-20 w-20"
+              />
             </a>
           </li>
         </ul>
