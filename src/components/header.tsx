@@ -1,7 +1,6 @@
 import { NextPage } from "next";
 import React from "react";
-// masthead{display:table;width:100%;height:auto;
-// background: linear - gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100 %), url(../img/bg - meguro1.jpg); background - position:center center; background - repeat: no - repeat; background - size: cover}
+import { Link as Scroll } from 'react-scroll';
 
 
 export const HeaderBlock: NextPage = () => {
@@ -22,10 +21,11 @@ export const HeaderBlock: NextPage = () => {
             貴方の目的地はどこですか？
           </h3>
           <a
-            className="bg-[#126a87] text-white text=lg px-10 py-6 rounded font-bold js-scroll-trigger"
-            href="#intro"
+            className="inline-block bg-primary text-white text=lg px-10 py-6 rounded font-bold hover:bg-green-800/60 hover:pointer-events-auto"
           >
+            <Scroll to="intro" smooth duration={300}>
             楽しさと、美しさを分かち合う
+            </Scroll>
           </a>
         </div>
         <div className="overlay"></div>

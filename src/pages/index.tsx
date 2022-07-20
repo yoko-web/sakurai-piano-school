@@ -3,6 +3,7 @@ import { HeaderBlock } from "../components/header";
 import { IconsBlock } from "../components/icons";
 import { useInView } from "react-intersection-observer";
 import { FC, ReactNode } from "react";
+import { Profile } from "../components/profile";
 
 type Props = {
   className?: string;
@@ -25,6 +26,7 @@ const Home: FC<Props> = () => {
       </Head>
 
       <HeaderBlock />
+      <Profile/>
       <IconsBlock inView={inView} />
     </div>
   );
