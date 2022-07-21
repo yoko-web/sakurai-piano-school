@@ -33,6 +33,7 @@ export const NavBarMobile: NextPage = () => {
       return !status;
     });
   };
+
   return (
     <>
       <div className="fixed right-5 top-10 z-50 px-2 pt-1 rounded xl:right-24">
@@ -55,22 +56,15 @@ export const NavBarMobile: NextPage = () => {
             isNavShow ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          {/* <button
-            type="button"
-            aria-label="toggle modal"
-            className="fixed -top-7 w-full h-4/5 focus:outline-none cursor-auto"
-            onClick={handleOnToggleNav}
-          ></button> */}
           <nav className="flex flex-col py-8 text-center md:mt-40">
             {items.map(({ href, label }) => {
               return (
                 <CustomLink
                   key={href}
                   href={href}
-                  onClick={handleOnToggleNav}
                   className="flex flex-col p-2 mx-auto text-2xl font-medium tracking-widest text-right text-gray-300 hover:text-gray-100 sm:p-3 sm:tracking-widest rounded-t-sm"
                 >
-                  {label}
+                  <button onClick={handleOnToggleNav}>{label}</button>
                 </CustomLink>
               );
             })}
