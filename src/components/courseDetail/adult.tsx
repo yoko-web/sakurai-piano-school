@@ -3,7 +3,7 @@ import { PriceLink } from "../atoms/PriceLink";
 
 export const Adult = () => {
   return (
-    <div className="mt-10 lg:mt-20">
+    <div className="mt-10 lg:mt-20" id="adult">
       <Heading3 type="gray">成人</Heading3>
 
       <div className="flex justify-center mx-auto">

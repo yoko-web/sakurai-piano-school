@@ -3,7 +3,7 @@ import { PriceLink } from "../atoms/PriceLink";
 
 export const Other = () => {
   return (
-    <div className="mt-10 lg:mt-20">
+    <div className="mt-10 lg:mt-20" id="other">
       <Heading3 type="gray">その他</Heading3>
 
       <div className="flex justify-center mx-auto">

@@ -3,7 +3,7 @@ import { PriceLink } from "../atoms/PriceLink";
 
 export const Conference = () => {
   return (
-    <div className="mt-10 lg:mt-20 min-w-fit">
+    <div className="mt-10 lg:mt-20 min-w-fit" id="conference">
       <Heading3 type="gray">カンファレンス</Heading3>
 
       <div className="my-3">ご入会に関するご相談や質問をお受けしたします。</div>

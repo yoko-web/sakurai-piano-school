@@ -3,7 +3,7 @@ import { PriceLink } from "../atoms/PriceLink";
 
 export const Online = () => {
   return (
-    <div className="mt-10 lg:mt-20">
+    <div className="mt-10 lg:mt-20" id="online">
       <Heading3 type="gray">
         オンラインレッスン、及びオンライン組合せコース
       </Heading3>

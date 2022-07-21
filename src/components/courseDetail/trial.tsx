@@ -6,7 +6,7 @@ export const Trial = () => {
     <div className="mt-10 lg:mt-20">
       <Heading3 type="gray">体験レッスン</Heading3>
 
-      <div className="flex justify-center mx-auto">
+      <div className="flex justify-center mx-auto" id="trial">
         <table className="table-fixed text-left  min-w-screen-md">
           <thead>
             <tr>

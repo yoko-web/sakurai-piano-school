@@ -11,7 +11,10 @@ import { Trial } from "./trial";
 
 export const CourseDetail: NextPage = (props) => {
   return (
-    <div className="py-28 text-center px-2 sm:px-6 mx-auto w-screen" id="about">
+    <div
+      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen"
+      id="course"
+    >
       <Heading2 type="gray"> 🎹ピアノレッスン / コース案内詳細</Heading2>
       <div className="max-w-2/3">
         <Kids />

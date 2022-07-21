@@ -3,7 +3,7 @@ import { PriceLink } from "../atoms/PriceLink";
 
 export const Grade = () => {
   return (
-    <div className="mt-10 lg:mt-20">
+    <div className="mt-10 lg:mt-20" id="grade">
       <Heading3 type="gray">グレード・検定・コンクール受験コース</Heading3>
 
       <div className="flex justify-center mx-auto">

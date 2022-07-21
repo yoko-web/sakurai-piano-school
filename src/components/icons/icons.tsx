@@ -3,7 +3,7 @@ import Facebook from "./38798-facebook-logo-effect.json";
 import Instagram from "./96175-instagram.json";
 import Twitter from "./18887-twitter-notification.json";
 import YouTube1 from "./76274-youtube-logo.json";
-import YouTube2 from "./98802-youtube.json";
+import YouTube2 from "./38763-youtube-logo-effect.json";
 import { CSSProperties } from "react";
 
 type Props = {
@@ -72,7 +72,11 @@ export const IconsBlock = ({ inView }: Props) => {
               className="relative"
             >
               <div className="absolute -top-3 mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full" />
-              <Lottie animationData={YouTube1} className="absolute h-16 w-16" />
+              <Lottie
+                animationData={YouTube1}
+                // loop={false}
+                className="absolute h-16 w-16"
+              />
             </a>
           </li>
         </ul>
