@@ -23,3 +23,20 @@ export const Heading2: FC<Props> = (props) => {
     </div>
   );
 };
+export const Heading3: FC<Props> = (props) => {
+  return (
+    <div className="text-2xl lg:text-3xl text-center  mb-3 sm:mb-8">
+      <h3
+        className={cc([
+          "font-bold tracking-wide",
+          {
+            "text-white": props.type === "white",
+            "text-gray-800": props.type === "gray",
+          },
+        ])}
+      >
+        {props.children}
+      </h3>
+    </div>
+  );
+};
