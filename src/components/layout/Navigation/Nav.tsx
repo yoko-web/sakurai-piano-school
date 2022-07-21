@@ -14,7 +14,7 @@ const items = [
   { href: "/#voice", label: "生徒さんの声" },
   { href: "/#faq", label: "よくあるご質問" },
   { href: "/#fee", label: "レッスン料" },
-  { href: "/#profile-main", label: "🍭プロフィール" },
+  { href: "/#profile-main", label: "プロフィール" },
   { href: "/#contact", label: "Contact" },
   { href: "/#other", label: "その他の活動" },
 ];
@@ -43,7 +43,7 @@ export const NavBarMobile: NextPage = () => {
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
-          <div className="absolute transform translate-x-[75%] capitalize text-lg text-gray-100">
+          <div className="absolute transform translate-x-[75%] capitalize text-lg text-gray-600">
             ナビゲーション
           </div>
           <Lottie
@@ -68,12 +68,12 @@ export const NavBarMobile: NextPage = () => {
                 </CustomLink>
               );
             })}
-            <Link
+            <CustomLink
               href="/gallery"
               className="flex flex-col p-2 mx-auto text-2xl font-medium tracking-widest text-right text-gray-300 hover:text-gray-100 sm:p-3 sm:tracking-widest rounded-t-sm"
             >
               フォトギャラリー
-            </Link>
+            </CustomLink>
             <a
               href="https://ameblo.jp/keikeiyanyan/"
               target="_blank"

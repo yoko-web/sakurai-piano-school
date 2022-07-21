@@ -58,7 +58,7 @@ export const LessonSection: NextPage = (props) => {
     >
       <div className="flex flex-col justify-center">
         <Heading2 type="gray"> 🎹 ピアノ レッスン / コース案内</Heading2>
-        <div className="grid sm:grid-cols-2 mx-auto gap-4 items-center">
+        <div className="grid sm:grid-cols-2 mx-auto gap-0 items-center">
           {data.map((item) => {
             return (
               <div

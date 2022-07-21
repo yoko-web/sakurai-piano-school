@@ -10,7 +10,7 @@ const config = {
 
 export const FAQ = () => {
   return (
-    <div className="py-28 text-center px-2 sm:px-6 mx-auto w-screen" id="faq">
+    <div className="py-28 text-center px-2 sm:px-6 mx-auto max-w-2xl" id="faq">
       <Heading2 type="gray"> よくあるご質問</Heading2>
       <div className="max-w-2/3 text-left">
         <Faq data={data} config={config} />
