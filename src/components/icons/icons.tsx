@@ -22,7 +22,11 @@ export const IconsBlock = ({ inView }: Props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Lottie animationData={Facebook} className="h-16 w-16" />
+              <Lottie
+                animationData={Facebook}
+                className="h-16 w-16"
+                loop={false}
+              />
             </a>
           </li>
           <li className="sm:pr-3">
@@ -34,16 +38,17 @@ export const IconsBlock = ({ inView }: Props) => {
               <Lottie animationData={Twitter} className="h-12 w-12 mt-2" />
             </a>
           </li>
-          
-          {/* </ul>
-        <ul className="flex mb-5"> */}
           <li className="sm:pr-3">
             <a
               href="https://www.youtube.com/user/TWINBELLKEIYAN"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Lottie animationData={YouTube2} className="h-16 w-16" />
+              <Lottie
+                animationData={YouTube2}
+                className="h-16 w-16"
+                loop={false}
+              />
             </a>
           </li>
           <li className="sm:pr-3">
@@ -52,7 +57,11 @@ export const IconsBlock = ({ inView }: Props) => {
               target="_blank"
               rel="noreferrer"
             >
-              <Lottie animationData={Instagram} className="h-20 w-20" />
+              <Lottie
+                animationData={Instagram}
+                className="h-20 w-20"
+                loop={false}
+              />
             </a>
           </li>
           <li className="pt-1">
@@ -62,11 +71,8 @@ export const IconsBlock = ({ inView }: Props) => {
               rel="noopener noreferrer"
               className="relative"
             >
-              <div className="absolute mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full"/>
-              <Lottie
-                animationData={YouTube1}
-                className="absolute h-16 w-16"
-              />
+              <div className="absolute -top-3 mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full" />
+              <Lottie animationData={YouTube1} className="absolute h-16 w-16" />
             </a>
           </li>
         </ul>
