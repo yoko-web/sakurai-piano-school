@@ -1,12 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
+import { Heading2 } from "../atoms";
 
 export const Profile: NextPage = () => {
   return (
-    <div className="py-28 bg-primary text-white text-center px-2 sm:px-6">
-      <h2 className="text-5xl font-bold mb-5" id="intro">
-        楽しさと、美しさを分かち合う
-      </h2>
+    <div
+      className="py-28 bg-primary text-white text-center px-2 sm:px-6"
+      id="intro"
+    >
+      <Heading2 type="white"> 楽しさと、美しさを分かち合う</Heading2>
 
       <div className="grid sm:grid-cols-2 gap-4">
         <div className="px-3 sm:px-5">

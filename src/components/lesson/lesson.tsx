@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
+import { Heading2 } from "../atoms";
 
 const data = [
   {
@@ -56,11 +57,7 @@ export const LessonSection: NextPage = (props) => {
       id="about"
     >
       <div className="flex flex-col justify-center">
-        <div className="text-5xl text-center">
-          <h2 className="mb-5 text-gray-800 font-bold tracking-wide">
-            🎹 ピアノ レッスン / コース案内
-          </h2>
-        </div>
+        <Heading2 type="gray"> 🎹 ピアノ レッスン / コース案内</Heading2>
         <div className="grid sm:grid-cols-2 mx-auto gap-4 items-center">
           {data.map((item) => {
             return (
