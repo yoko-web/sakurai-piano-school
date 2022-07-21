@@ -27,9 +27,9 @@ const Home: FC<Props> = () => {
         <link rel="icon" href="favicon/favicon.ico" />
       </Head>
 
-      <HeaderBlock />
-      <Profile />
-      <LessonSection />
+      {/* <HeaderBlock /> */}
+      {/* <Profile /> */}
+      {/* <LessonSection /> */}
       <CourseDetail />
       <IconsBlock inView={inView} />
     </div>
