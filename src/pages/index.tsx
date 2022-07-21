@@ -1,12 +1,12 @@
 import Head from "next/head";
-import { HeaderBlock } from "../components/header";
-import { IconsBlock } from "../components/icons";
-import { useInView } from "react-intersection-observer";
+import { HeaderBlock } from "../components/layout/header";
 import { FC, ReactNode } from "react";
 import { Profile } from "../components/profile";
 import { LessonSection } from "../components/lesson";
 import { CourseDetail } from "../components/courseDetail/course";
 import { Voices } from "../components/voices";
+import { NavBarMobile } from "../components/layout/Navigation";
+import { Footer } from "../components/layout/footer";
 import { FAQ } from "../components/FAQ";
 
 type Props = {
@@ -16,7 +16,6 @@ type Props = {
 };
 
 const Home: FC<Props> = () => {
-  const { inView, ref } = useInView({ threshold: 0 });
   return (
     <div className="relative min-h-screen">
       <Head>
@@ -28,14 +27,14 @@ const Home: FC<Props> = () => {
         />
         <link rel="icon" href="favicon/favicon.ico" />
       </Head>
-
+      <NavBarMobile />
       <HeaderBlock />
       <Profile />
       <LessonSection />
       <CourseDetail />
       <Voices />
       <FAQ />
-      <IconsBlock inView={inView} />
+      <Footer />
     </div>
   );
 };
