@@ -6,6 +6,8 @@ import { FC, ReactNode } from "react";
 import { Profile } from "../components/profile";
 import { LessonSection } from "../components/lesson";
 import { CourseDetail } from "../components/courseDetail/course";
+import { Voices } from "../components/voices";
+import { FAQ } from "../components/FAQ";
 
 type Props = {
   className?: string;
@@ -27,10 +29,12 @@ const Home: FC<Props> = () => {
         <link rel="icon" href="favicon/favicon.ico" />
       </Head>
 
-      {/* <HeaderBlock /> */}
-      {/* <Profile /> */}
-      {/* <LessonSection /> */}
+      <HeaderBlock />
+      <Profile />
+      <LessonSection />
       <CourseDetail />
+      <Voices />
+      <FAQ />
       <IconsBlock inView={inView} />
     </div>
   );
