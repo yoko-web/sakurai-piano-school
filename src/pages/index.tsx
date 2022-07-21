@@ -4,6 +4,7 @@ import { IconsBlock } from "../components/icons";
 import { useInView } from "react-intersection-observer";
 import { FC, ReactNode } from "react";
 import { Profile } from "../components/profile";
+import { LessonSection } from "../components/lesson";
 
 type Props = {
   className?: string;
@@ -26,7 +27,8 @@ const Home: FC<Props> = () => {
       </Head>
 
       <HeaderBlock />
-      <Profile/>
+      <Profile />
+      <LessonSection />
       <IconsBlock inView={inView} />
     </div>
   );
