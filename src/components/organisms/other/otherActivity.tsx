@@ -4,7 +4,7 @@ import { PriceLink } from "../../atoms/priceLink";
 
 export const OtherActivity = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center sm:text-lg">
       <div className="mt-10 lg:mt-20 px-3 sm:px-10" id="other-activity">
         <Heading3 type="gray">ピアノレッスン以外の活動</Heading3>
         <div className="flex flex-col whitespace-normal leading-7 text-left">

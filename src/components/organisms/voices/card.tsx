@@ -19,9 +19,7 @@ export const VoiceCollection: FC<Props> = (props) => {
                 <div className="">{item.title}</div>
                 <div className="">{item.who}</div>
               </div>
-              <div className="text-sm text-ellipsis line-clamp-4">
-                {item.description}
-              </div>
+              <div className="tsm:text-lg text-left">{item.description}</div>
             </div>
           </li>
         );

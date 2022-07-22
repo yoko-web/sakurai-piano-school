@@ -3,7 +3,10 @@ import { Table } from "./table";
 
 export const Fee = () => {
   return (
-    <div className="py-28 text-center px-2 sm:px-6 mx-auto w-screen" id="fee">
+    <div
+      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg"
+      id="fee"
+    >
       <Heading2 type="gray">レッスン料</Heading2>
       <div className="mt-6 mb-8 text-left">
         どのコースも、マンツーマンが基本です。レッスンは基本コース（年間42回）のほかに、月３回、月2回、月1回など、ご都合に合わせて開設いたします。

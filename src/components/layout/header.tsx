@@ -10,7 +10,7 @@ export const HeaderBlock: NextPage = () => {
       }}
       id="page-top"
     >
-      <div className="absolute min-h-screen min-w-screen bg-white/10 top-[20%] p-20">
+      <div className="absolute max-h-screen min-w-screen bg-white/10 top-[20%] p-20">
         <div className="container text-center my-auto">
           <h1 className="mb-16 text-5xl  md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
             音の世界へ
