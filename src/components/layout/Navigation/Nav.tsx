@@ -42,7 +42,10 @@ export const NavBarMobile: NextPage = () => {
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
-          <div className="absolute transform translate-x-[70%] capitalize text-lg text-gray-800 shadow-white animate-pulse font-semibold tracking-tight">
+          <div className="absolute transform translate-x-[80%] text-lg text-black shadow-white animate-pulse font-semibold tracking-widest z-50 font-mono">
+            ナビ
+          </div>
+          <div className="absolute transform translate-x-[80%] text-lg text-white shadow-white animate-pulse font-bold tracking-tight tracking-wider font-mono">
             ナビ
           </div>
           <Lottie
