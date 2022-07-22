@@ -4,48 +4,51 @@ const data = [
   {
     id: "1",
     title: "キッズ（入門）",
-    url: {
-      background: 'center/cover no-repeat url("img/lesson-kids.jpg")',
-    },
     src: "img/lesson-kids.jpg",
     href: "#kids",
   },
   {
     id: "2",
     title: "スチューデント 初・中級・上級",
-    url: {
-      background: 'center/cover no-repeat url("img/lesson-student.jpg")',
-    },
     src: "img/lesson-student.jpg",
     href: "#student",
   },
   {
     id: "3",
-    title: "成人　ヒーリングクラス・スキルクラス",
-    url: {
-      background: 'center/cover no-repeat url("img/lesson-adult.jpg")',
-    },
+    title: "成人 ヒーリングクラス・スキルクラス",
     src: "img/lesson-adult.jpg",
     href: "#adult",
   },
   {
     id: "4",
     title: "グレード・検定・コンクール受験コース",
-    url: {
-      background: 'center/cover no-repeat url("img/lesson-competition1.jpg")',
-    },
     src: "img/lesson-competition1.jpg",
     href: "#grade",
   },
   {
     id: "5",
     title: "オンラインレッスン、及びオンライン組合せコース",
-    url: {
-      background: 'center/cover no-repeat url("img/lesson-online.jpg")',
-    },
     src: "img/lesson-online.jpg",
     href: "#online",
   },
+  // {
+  //   id: "6",
+  //   title: "その他",
+  //   src: "img/mum-and-kid.jpg",
+  //   href: "#online",
+  // },
+  // {
+  //   id: "7",
+  //   title: "オンラインレッスン、及びオンライン組合せコース",
+  //   src: "img/lesson-online.jpg",
+  //   href: "#online",
+  // },
+  // {
+  //   id: "8",
+  //   title: "オンラインレッスン、及びオンライン組合せコース",
+  //   src: "img/lesson-online.jpg",
+  //   href: "#online",
+  // },
 ];
 
 export const Tiles = () => {
@@ -85,7 +88,7 @@ export const Tiles = () => {
           </div>
           <img
             loading="lazy"
-            className="img-fluid"
+            className="max-w-full h-auto"
             src="img/mum-and-kid.jpg"
             alt="その他"
           />
@@ -107,7 +110,7 @@ export const Tiles = () => {
           </div>
           <img
             loading="lazy"
-            className="img-fluid"
+            className="max-w-full h-auto"
             src="img/piano.jpg"
             alt="体験レッスン"
           />
@@ -127,7 +130,7 @@ export const Tiles = () => {
           </div>
           <img
             loading="lazy"
-            className="img-fluid"
+            className="max-w-full h-auto"
             src="img/piano.jpg"
             alt="体験レッスン"
           />
