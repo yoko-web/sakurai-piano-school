@@ -31,24 +31,6 @@ const data = [
     src: "img/lesson-online.jpg",
     href: "#online",
   },
-  // {
-  //   id: "6",
-  //   title: "その他",
-  //   src: "img/mum-and-kid.jpg",
-  //   href: "#online",
-  // },
-  // {
-  //   id: "7",
-  //   title: "オンラインレッスン、及びオンライン組合せコース",
-  //   src: "img/lesson-online.jpg",
-  //   href: "#online",
-  // },
-  // {
-  //   id: "8",
-  //   title: "オンラインレッスン、及びオンライン組合せコース",
-  //   src: "img/lesson-online.jpg",
-  //   href: "#online",
-  // },
 ];
 
 export const Tiles = () => {
