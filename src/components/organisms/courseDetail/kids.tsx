@@ -1,5 +1,5 @@
-import { Heading3 } from "../atoms/headingTitle";
-import { PriceLink } from "../atoms/PriceLink";
+import { Heading3 } from "../../atoms";
+import { PriceLink } from "../../atoms/PriceLink";
 
 export const Kids = () => {
   return (
@@ -22,9 +22,7 @@ export const Kids = () => {
                 プラス独自のキッズ用スキルも用いて楽しく音符とリズムを学びます。
               </td>
               <td className="w-1/6">
-                <PriceLink type="course" href="element">
-                  料金
-                </PriceLink>
+                <PriceLink type="course">料金</PriceLink>
               </td>
             </tr>
           </tbody>

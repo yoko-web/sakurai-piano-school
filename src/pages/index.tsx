@@ -2,7 +2,7 @@ import Head from "next/head";
 import { HeaderBlock } from "../components/layout/header";
 import { FC, ReactNode } from "react";
 import { Profile } from "../components/organisms/profile";
-import { LessonSection } from "../components/lesson";
+import { LessonSection } from "../components/organisms/lesson";
 import { CourseDetail } from "../components/organisms/courseDetail/course";
 import { Voices } from "../components/organisms/voices";
 import { NavBarMobile } from "../components/layout/Navigation";

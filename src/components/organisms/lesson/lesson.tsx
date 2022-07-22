@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
-import { Heading2 } from "../atoms";
+import { Heading2 } from "../../atoms";
 
 const data = [
   {
@@ -62,19 +62,22 @@ export const LessonSection: NextPage = (props) => {
           {data.map((item) => {
             return (
               <div
-                className="relative max-w-[530px] mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 "
+                className="relative max-w-[530px] mb-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 bg-cover bg-center"
                 key={item.id}
+                style={{
+                  backgroundImage: `url('${item.src}')`,
+                }}
               >
                 <a href={item.href}>
                   <span className="absolute bottom-3 right-3 bg-primary/80">
                     <div className="mb-1">{item.title}</div>
                   </span>
-                  <img
+                  {/* <img
                     loading="lazy"
                     className="max-w-full h-auto"
                     src={item.src}
                     alt={item.title}
-                  />
+                  /> */}
                 </a>
               </div>
             );

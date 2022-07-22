@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
-import { Heading2 } from "../atoms";
+import { Heading2 } from "../../atoms";
 import { Kids } from "./kids";
 import { Student } from "./student";
 import { Adult } from "./adult";

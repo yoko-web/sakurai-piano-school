@@ -1,5 +1,5 @@
 import Faq from "react-faq-component";
-import { Heading2 } from "../atoms";
+import { Heading2 } from "../../atoms";
 import { data } from "./data";
 
 const config = {

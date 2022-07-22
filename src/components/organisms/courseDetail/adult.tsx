@@ -1,5 +1,5 @@
-import { Heading3 } from "../atoms/headingTitle";
-import { PriceLink } from "../atoms/PriceLink";
+import { Heading3 } from "../../atoms";
+import { PriceLink } from "../../atoms/PriceLink";
 
 export const Adult = () => {
   return (
@@ -22,9 +22,7 @@ export const Adult = () => {
                 成人、熟年になってから初めてピアノに挑戦される方や、昔習っていたけれど、また思い出しながらゆっくり弾きたい、という方に最適です。
               </td>
               <td className="w-1/6">
-                <PriceLink type="course" href="advance">
-                  料金
-                </PriceLink>
+                <PriceLink type="course">料金</PriceLink>
               </td>
             </tr>
             <tr className="hover:bg-gray-100">
@@ -34,9 +32,7 @@ export const Adult = () => {
                 今までも、これからも、発表会前の弾きあい会、大人のブルグミュラーの会、大人のインヴェンションとシンフォニアの会、大人の「お菓子の世界」弾きあい会、平均律大会、小犬のワルツ大会、左手の曲大会、ソナチネを全楽章弾く会など、数々の面白い企画を催していきます。
               </td>
               <td className="w-1/6">
-                <PriceLink type="course" href="advance">
-                  料金
-                </PriceLink>
+                <PriceLink type="course">料金</PriceLink>
               </td>
             </tr>
           </tbody>

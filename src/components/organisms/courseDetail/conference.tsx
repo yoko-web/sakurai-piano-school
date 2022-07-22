@@ -1,5 +1,5 @@
-import { Heading3 } from "../atoms/headingTitle";
-import { PriceLink } from "../atoms/PriceLink";
+import { Heading3 } from "../../atoms";
+import { PriceLink } from "../../atoms/PriceLink";
 
 export const Conference = () => {
   return (
