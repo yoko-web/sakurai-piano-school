@@ -2,7 +2,6 @@
 import Lottie from "lottie-react";
 import { useState } from "react";
 import musicnote from "./27209-music-notes.json";
-import Link from "next/link";
 import { NextPage } from "next";
 import { CustomLink } from "./CustomLink";
 
@@ -39,11 +38,11 @@ export const NavBarMobile: NextPage = () => {
       <div className="fixed right-5 top-10 z-50 px-2 pt-1 rounded xl:right-24">
         <button
           type="button"
-          className="relative mx-1 w-24 h-24 rounded-full bg-white/60 xl:w-32 xl:h-32"
+          className="relative mx-1 w-24 h-24 rounded-full bg-white/50 xl:w-32 xl:h-32"
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
-          <div className="absolute transform translate-x-[75%] capitalize text-lg text-gray-600">
+          <div className="absolute transform translate-x-[50%] capitalize text-lg text-gray-800 shadow-white animate-pulse font-semibold tracking-tight">
             ナビゲーション
           </div>
           <Lottie
@@ -56,7 +55,7 @@ export const NavBarMobile: NextPage = () => {
             isNavShow ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <nav className="flex flex-col py-8 text-center md:mt-40">
+          <nav className="flex flex-col justify-start py-8 text-center md:mt-40">
             {items.map(({ href, label }) => {
               return (
                 <CustomLink

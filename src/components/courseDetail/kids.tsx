@@ -22,7 +22,9 @@ export const Kids = () => {
                 プラス独自のキッズ用スキルも用いて楽しく音符とリズムを学びます。
               </td>
               <td className="w-1/6">
-                <PriceLink type="course">料金</PriceLink>
+                <PriceLink type="course" href="element">
+                  料金
+                </PriceLink>
               </td>
             </tr>
           </tbody>
