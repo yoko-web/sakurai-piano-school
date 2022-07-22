@@ -8,6 +8,7 @@ import { Voices } from "../components/organisms/voices";
 import { NavBarMobile } from "../components/layout/Navigation";
 import { Footer } from "../components/layout/footer";
 import { FAQ } from "../components/organisms/FAQ";
+import { Fee } from "../components/organisms/fee";
 
 type Props = {
   className?: string;
@@ -34,6 +35,7 @@ const Home: FC<Props> = () => {
       <CourseDetail />
       <Voices />
       <FAQ />
+      <Fee />
       <Footer />
     </div>
   );
