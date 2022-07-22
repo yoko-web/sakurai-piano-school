@@ -54,7 +54,7 @@ export const NavBarMobile: NextPage = () => {
           />
         </button>
         <div
-          className={`overflow-auto fixed w-full h-full top-0 right-0 bg-primary/80 z-10 transform ease-in-out duration-300 ${
+          className={`overflow-auto fixed w-full h-full top-0 right-0 bg-primary/90 z-10 transform ease-in-out duration-300 ${
             isNavShow ? "translate-x-0" : "translate-x-full"
           }`}
         >
