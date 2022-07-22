@@ -1,5 +1,5 @@
 import { Heading3 } from "../../atoms";
-import { ButtonNav } from "../../atoms/button";
+import { NavButton } from "../../atoms";
 
 export const OtherActivity = () => {
   return (
@@ -71,7 +71,7 @@ export const OtherActivity = () => {
           </div>
         </div>
         <div className="mx-auto my-10 w-60">
-          <ButtonNav href="contact">ご依頼</ButtonNav>
+          <NavButton href="contact">ご依頼</NavButton>
         </div>
       </div>
     </div>

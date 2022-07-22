@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { ButtonNav } from "../atoms/button";
+import { NavButton } from "../atoms";
 
 export const HeaderBlock: NextPage = () => {
   return (
@@ -21,7 +21,7 @@ export const HeaderBlock: NextPage = () => {
             貴方の目的地はどこですか？
           </h3>
           <div className="py-10">
-            <ButtonNav href="intro">楽しさと、美しさを分かち合う</ButtonNav>
+            <NavButton href="intro">楽しさと、美しさを分かち合う</NavButton>
           </div>
         </div>
       </div>

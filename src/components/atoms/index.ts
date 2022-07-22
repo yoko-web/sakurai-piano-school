@@ -1,2 +1,3 @@
-export { Heading2, Heading3 } from "./headingTitles/headingTitle";
-export { PriceLink } from "./priceLink/price";
+export { Heading2, Heading3 } from "./headingTitles";
+export { PriceLink } from "./priceLink";
+export { NavButton } from "./navButton";
