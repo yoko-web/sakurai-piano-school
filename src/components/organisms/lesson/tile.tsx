@@ -31,6 +31,34 @@ const data = [
     src: "img/lesson-online.jpg",
     href: "#online",
   },
+  {
+    id: "6",
+    title: "その他",
+    sub0: "親子レッスン\n\n",
+    sub1: "ご友人同士の連弾レッスン\n\n",
+    sub2: "ソルフェージュコース\n\n",
+    sub3: "音大受験サポート",
+    src: "img/mum-and-kid.jpg",
+    href: "#others",
+  },
+  {
+    id: "7",
+    title: "カンファレンス（無料）",
+    sub0: "来室カンファレンス\n\n",
+    sub1: "オンラインカンファレンス\n\n",
+    sub2: "(ご入会に関するご相談や質問をお受けしたり、少しピアノに触っていただけます。)",
+    src: "img/piano.jpg",
+    href: "#conference",
+  },
+  {
+    id: "8",
+    title: "体験レッスン（有料）",
+    sub0: "来室体験レッスン\n\n",
+    sub1: "オンライン体験レッスン\n\n",
+    sub2: "(体験レッスンは、ご都合に合わせて様々な形の機会を提供しています。)",
+    src: "img/piano.jpg",
+    href: "#trial",
+  },
 ];
 
 export const Tiles = () => {
@@ -43,8 +71,17 @@ export const Tiles = () => {
             key={item.id}
           >
             <a href={item.href}>
-              <div className="absolute bottom-3 right-3 bg-primary/80">
-                <div className="mb-1">{item.title}</div>
+              <div className="absolute bottom-3 right-3 bg-primary/80 rounded">
+                <div className="pt-6 px-3 mb-1 text-lg font-bold">
+                  {item.title}
+                </div>
+                <div className="mb-1 text-lg text-left">
+                  {!item.sub0 ? null : item.sub0}
+                  {!item.sub1 ? null : item.sub1}
+                  <br />
+                  {!item.sub2 ? null : item.sub2}
+                  {!item.sub3 ? null : item.sub3}
+                </div>
               </div>
               <img
                 loading="lazy"
@@ -56,68 +93,6 @@ export const Tiles = () => {
           </div>
         );
       })}
-
-      <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary">
-        <a className="relative" href="#others">
-          <div className="absolute bottom-3 right-3 bg-primary/80">
-            <div className="mb-0">その他</div>
-            <ul>
-              <li>親子レッスン</li>
-              <li>ご友人同士の連弾レッスン</li>
-              <li>ソルフェージュコース</li>
-              <li>音大受験サポート</li>
-            </ul>
-          </div>
-          <img
-            loading="lazy"
-            className="max-w-full h-auto"
-            src="img/mum-and-kid.jpg"
-            alt="その他"
-          />
-        </a>
-      </div>
-
-      <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary place-items-center">
-        <a className="relative" href="#conference">
-          <div className="absolute bottom-3 right-3 bg-primary/80">
-            <div className="mb-0">カンファレンス（無料）</div>
-            <ul>
-              <li>来室カンファレンス</li>
-              <li>
-                オンラインカンファレンス
-                <br />
-                (ご入会に関するご相談や質問をお受けしたり、少しピアノに触っていただけます。)
-              </li>
-            </ul>
-          </div>
-          <img
-            loading="lazy"
-            className="max-w-full h-auto"
-            src="img/piano.jpg"
-            alt="体験レッスン"
-          />
-        </a>
-      </div>
-      <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary">
-        <a className="relative" href="#trial">
-          <div className="absolute bottom-3 right-3 bg-primary/80">
-            <div className="mb-0">体験レッスン（有料）</div>
-            <ul>
-              <li>来室体験レッスン</li>
-              <li>オンライン体験レッスン</li>
-              <li>
-                (体験レッスンは、ご都合に合わせて様々な形の機会を提供しています。)
-              </li>
-            </ul>
-          </div>
-          <img
-            loading="lazy"
-            className="max-w-full h-auto"
-            src="img/piano.jpg"
-            alt="体験レッスン"
-          />
-        </a>
-      </div>
     </div>
   );
 };
