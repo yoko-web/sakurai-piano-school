@@ -5,12 +5,11 @@ import { FC, ReactNode } from "react";
 type Props = {
   children: ReactNode;
   type: "free" | "course" | "charge";
-  href?: string;
 };
 
 export const PriceLink: FC<Props> = (props) => {
   return (
-    <Scroll to={props.href} smooth duration={300}>
+    <Scroll to="lessonfee" smooth duration={300}>
       <span
         className={cc([
           "text-[10px] font-semibold text-white rounded p-1 whitespace-nowrap",
