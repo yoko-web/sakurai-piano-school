@@ -1,5 +1,5 @@
 import { Heading3 } from "../../atoms";
-import { PriceLink } from "../../atoms/PriceLink";
+import { PriceLink } from "../../atoms/priceLink";
 
 export const Trial = () => {
   return (
