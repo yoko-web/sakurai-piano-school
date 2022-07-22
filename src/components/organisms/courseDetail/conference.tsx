@@ -11,7 +11,7 @@ export const Conference = () => {
         <table className="table-fixed text-left  max-w-screen-md">
           <thead>
             <tr>
-              <th className="whitespace-nowrap w-1/6">クラス</th>
+              <th className="w-1/6">クラス</th>
               <th className="w-4/6  p-2">概要</th>
               <th className="w-1/6"></th>
             </tr>
