@@ -15,7 +15,7 @@ const items = [
   { href: "/#fee", label: "レッスン料" },
   { href: "/#profile-main", label: "プロフィール" },
   { href: "/#contact", label: "Contact" },
-  { href: "/#other", label: "その他の活動" },
+  { href: "/#other-activity", label: "その他の活動" },
 ];
 
 export const NavBarMobile: NextPage = () => {
@@ -45,7 +45,7 @@ export const NavBarMobile: NextPage = () => {
           <div className="absolute transform translate-x-[80%] text-lg text-black shadow-white animate-pulse font-semibold tracking-widest z-50 font-mono">
             ナビ
           </div>
-          <div className="absolute transform translate-x-[80%] text-lg text-white shadow-white animate-pulse font-bold tracking-tight tracking-wider font-mono">
+          <div className="absolute transform translate-x-[80%] text-lg text-white shadow-white animate-pulse font-bold tracking-wider font-mono">
             ナビ
           </div>
           <Lottie
