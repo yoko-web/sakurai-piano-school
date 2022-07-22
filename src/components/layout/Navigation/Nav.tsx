@@ -58,13 +58,13 @@ export const NavBarMobile: NextPage = () => {
             isNavShow ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <nav className="flex flex-col justify-start py-8 text-center md:mt-40">
+          <nav className="flex flex-col justify-start py-8 text-center md:mt-40 z-50">
             {items.map(({ href, label }) => {
               return (
                 <CustomLink
                   key={href}
                   href={href}
-                  className="flex flex-col p-2 mx-auto text-2xl font-medium tracking-widest text-right text-gray-300 hover:text-gray-100 sm:p-3 sm:tracking-widest rounded-t-sm"
+                  className="flex flex-col p-2 mx-auto text-2xl lg:text-3xl font-mono font-semibold tracking-widest text-right text-gray-300 hover:text-gray-100 sm:p-3 sm:tracking-widest rounded-t-sm"
                 >
                   <button onClick={handleOnToggleNav}>{label}</button>
                 </CustomLink>
