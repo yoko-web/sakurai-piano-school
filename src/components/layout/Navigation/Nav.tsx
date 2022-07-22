@@ -35,15 +35,15 @@ export const NavBarMobile: NextPage = () => {
 
   return (
     <>
-      <div className="fixed right-5 top-10 z-50 px-2 pt-1 rounded xl:right-24">
+      <div className="fixed right-3 sm:right-5 top-10 z-50 px-2 pt-1 rounded xl:right-24">
         <button
           type="button"
           className="relative mx-1 w-24 h-24 rounded-full bg-white/50 xl:w-32 xl:h-32"
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
-          <div className="absolute transform translate-x-[50%] capitalize text-lg text-gray-800 shadow-white animate-pulse font-semibold tracking-tight">
-            ナビゲーション
+          <div className="absolute transform translate-x-[70%] capitalize text-lg text-gray-800 shadow-white animate-pulse font-semibold tracking-tight">
+            ナビ
           </div>
           <Lottie
             animationData={musicnote}
