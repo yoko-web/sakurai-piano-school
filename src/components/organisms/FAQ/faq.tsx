@@ -11,7 +11,7 @@ const config = {
 export const FAQ = () => {
   return (
     <div
-      className="py-28 text-center px-2 sm:px-6 mx-auto max-w-2xl sm:text-lg"
+      className="py-28 text-center px-2 sm:px-6 mx-auto sm:text-lg max-w-screen-lg"
       id="faq"
     >
       <Heading2 type="gray"> よくあるご質問</Heading2>

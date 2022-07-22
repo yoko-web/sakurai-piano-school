@@ -1,6 +1,6 @@
 export const Table = () => {
   return (
-    <div className="flex flex-col justify-center mx-auto w-screen sm:text-lg">
+    <div className="flex flex-col justify-center mx-auto sm:text-lg">
       <table className="table-fixed text-left leading-loose tracking-widest divide-y-4">
         <thead className="mb-2">
           <tr className="">

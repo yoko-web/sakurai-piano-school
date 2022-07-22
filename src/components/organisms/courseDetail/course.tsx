@@ -13,7 +13,7 @@ import { Online } from "./online";
 export const CourseDetail: NextPage = (props) => {
   return (
     <div
-      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg"
+      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg max-w-screen-lg"
       id="course"
     >
       <Heading2 type="gray"> 🎹ピアノレッスン / コース案内詳細</Heading2>

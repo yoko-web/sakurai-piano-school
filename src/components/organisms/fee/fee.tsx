@@ -4,7 +4,7 @@ import { Table } from "./table";
 export const Fee = () => {
   return (
     <div
-      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg"
+      className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg max-w-screen-lg"
       id="fee"
     >
       <Heading2 type="gray">レッスン料</Heading2>
