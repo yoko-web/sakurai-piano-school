@@ -7,7 +7,7 @@ export const Grade = () => {
       <Heading3 type="gray">グレード・検定・コンクール受験コース</Heading3>
 
       <div className="flex justify-center mx-auto">
-        <table className="table-fixed text-left  max-w-screen-md">
+        <table className="table-fixed text-left  max-w-screen-md divide-y-4">
           <thead>
             <tr>
               <th className="whitespace-nowrap w-1/6">クラス</th>
@@ -15,7 +15,7 @@ export const Grade = () => {
               <th className="w-1/6"></th>
             </tr>
           </thead>
-          <tbody className="group">
+          <tbody className="group divide-y-2">
             <tr className="hover:bg-gray-100 whitespace-normal">
               <td> </td>
               <td className="p-2 w-4/6">

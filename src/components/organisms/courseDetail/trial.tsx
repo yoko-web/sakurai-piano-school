@@ -15,7 +15,7 @@ export const Trial = () => {
               <th className="w-1/6"></th>
             </tr>
           </thead>
-          <tbody className="group">
+          <tbody className="group divide-y-2">
             <tr className="hover:bg-gray-100 sm:whitespace-nowrap p-2">
               <td>来訪体験レッスン</td>
               <td className="p-2">

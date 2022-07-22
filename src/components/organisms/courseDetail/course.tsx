@@ -20,6 +20,7 @@ export const CourseDetail: NextPage = (props) => {
       <div className="mt-6 mb-8 text-left">
         どのコースも、マンツーマンが基本です。レッスンは基本コース（年間42回）のほかに、月３回、月2回、月1回など、ご都合に合わせて開設いたします。
         レッスン時間も、30分・40分・1時間など選んでいただけます。
+        <br />
         レッスンの概要は、下表
         <a className="text-blue-500" href="#kids">
           キッズ入門
