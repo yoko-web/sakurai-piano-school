@@ -74,7 +74,7 @@ export const Tiles = () => {
 
       <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary">
         <a className="relative" href="#others">
-          <span className="absolute bottom-3 right-3 bg-primary/80 prose-lg prose-invert">
+          <span className="absolute bottom-3 right-3 bg-primary/80 prose-invert">
             <div className="mb-0">その他</div>
             <ul>
               <li>親子レッスン</li>
@@ -94,7 +94,7 @@ export const Tiles = () => {
 
       <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary place-items-center">
         <a className="relative" href="#conference">
-          <span className="absolute bottom-3 right-3 bg-primary/80 prose-lg prose-invert">
+          <span className="absolute bottom-3 right-3 bg-primary/80 prose-invert">
             <div className="mb-0">カンファレンス（無料）</div>
             <ul>
               <li>来室カンファレンス</li>
@@ -115,7 +115,7 @@ export const Tiles = () => {
       </div>
       <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 max-w-[530px] mb-2 mr-2 bg-primary">
         <a className="relative" href="#trial">
-          <span className="absolute bottom-3 right-3 bg-primary/80 prose-lg prose-invert">
+          <span className="absolute bottom-3 right-3 bg-primary/80 prose-invert">
             <div className="mb-0">体験レッスン（有料）</div>
             <ul>
               <li>来室体験レッスン</li>
