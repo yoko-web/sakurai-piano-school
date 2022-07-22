@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
-import { Heading2 } from "../atoms";
+import { Heading2 } from "../../atoms";
 
 export const Profile: NextPage = () => {
   return (

@@ -1,4 +1,4 @@
-import { Heading2 } from "../atoms";
+import { Heading2 } from "../../atoms";
 import { VoiceCollection } from "./card";
 
 export const Voices = () => {

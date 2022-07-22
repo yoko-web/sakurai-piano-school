@@ -1,13 +1,13 @@
 import Head from "next/head";
 import { HeaderBlock } from "../components/layout/header";
 import { FC, ReactNode } from "react";
-import { Profile } from "../components/profile";
+import { Profile } from "../components/organisms/profile";
 import { LessonSection } from "../components/lesson";
-import { CourseDetail } from "../components/courseDetail/course";
-import { Voices } from "../components/voices";
+import { CourseDetail } from "../components/organisms/courseDetail/course";
+import { Voices } from "../components/organisms/voices";
 import { NavBarMobile } from "../components/layout/Navigation";
 import { Footer } from "../components/layout/footer";
-import { FAQ } from "../components/FAQ";
+import { FAQ } from "../components/organisms/FAQ";
 
 type Props = {
   className?: string;
