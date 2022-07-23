@@ -27,14 +27,8 @@ export const ContactForm = () => {
           </div>
           <div className="flex my-6">
             <div className="w-36">携帯電話</div>
-            <div className="w-2/3">090-3903-1452</div>
+            <div className="text-primary">090-3903-1452</div>
           </div>
-          {/* <div className="flex"> */}
-          {/* <div className="w-1/3">メールアドレス</div>
-            <div className="w-2/3"> */}
-          {/* <a href="mailto:mintsakurai@rakuten.jp">mintsakurai@rakuten.jp</a> */}
-          {/* </div> */}
-          {/* </div> */}
         </div>
 
         <Form />

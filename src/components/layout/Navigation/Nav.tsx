@@ -12,7 +12,7 @@ const items = [
   { href: "/#course", label: "コース案内" },
   { href: "/#voice", label: "生徒さんの声" },
   { href: "/#faq", label: "よくあるご質問" },
-  { href: "/#fee", label: "レッスン料" },
+  { href: "/#fee", label: "レッスン料金" },
   { href: "/profile", label: "プロフィール" },
   { href: "/#contact", label: "アクセス・お問合せ" },
   { href: "/#other-activity", label: "その他の活動" },
