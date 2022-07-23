@@ -18,9 +18,7 @@ export const Layout: FC<Props> = (props) => {
   return (
     <div className="flex flex-col justify-start w-screen">
       <NavBarMobile />
-      <main className="px-2 mx-auto sm:px-3 md:px-5 md:w-full">
-        {props.children}
-      </main>
+      <main className="mx-auto md:w-full">{props.children}</main>
       <Footer />
     </div>
     // </div>
