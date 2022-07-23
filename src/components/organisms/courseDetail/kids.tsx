@@ -6,7 +6,7 @@ export const Kids = () => {
     <div className="mt-10 lg:mt-20" id="kids">
       <Heading3 type="gray">キッズ入門</Heading3>
       <div className="flex justify-center mx-auto">
-        <table className="table-fixed text-left  max-w-screen-md divide-y-4">
+        <table className="table-fixed text-left  max-w-screen-md divide-y-2">
           <thead>
             <tr>
               <th className="whitespace-nowrap w-1/6">クラス</th>

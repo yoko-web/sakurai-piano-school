@@ -8,7 +8,7 @@ export const Conference = () => {
 
       <div className="my-3">ご入会に関するご相談や質問をお受けしたします。</div>
       <div className="flex  justify-center mx-auto">
-        <table className="table-fixed text-left  max-w-screen-md divide-y-4">
+        <table className="table-fixed text-left  max-w-screen-md divide-y-2">
           <thead>
             <tr>
               <th className="w-1/6">クラス</th>

@@ -1,7 +1,7 @@
 export const Table = () => {
   return (
     <div className="flex flex-col justify-center mx-auto sm:text-lg">
-      <table className="table-fixed text-left leading-loose tracking-widest divide-y-4">
+      <table className="table-fixed text-left leading-loose tracking-widest divide-y-2">
         <thead className="mb-2">
           <tr className="">
             <th className="whitespace-nowrap pr-10"></th>
@@ -44,10 +44,10 @@ export const Table = () => {
           </tr>
         </tbody>
       </table>
-      <div className="text-left py-4 border-y-2 border-gray-200 hover:bg-gray-100">
+      <div className="text-left py-4 border-y-2 border-gray-100 hover:bg-gray-100">
         <span className="font-bold">ワンレッスン</span> 50分 4000円
       </div>
-      <div className="text-left py-4 border-b-2 border-gray-200 hover:bg-gray-100">
+      <div className="text-left py-4 border-b-2 border-gray-100 hover:bg-gray-100">
         <span className="font-bold">その他のコース</span>
         （固定曜日でないレッスン、40分レッスン、1時間レッスン、他）についてはお問い合わせください。
       </div>

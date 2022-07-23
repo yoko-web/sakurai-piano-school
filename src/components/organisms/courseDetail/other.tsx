@@ -7,7 +7,7 @@ export const Other = () => {
       <Heading3 type="gray">その他</Heading3>
 
       <div className="flex justify-center mx-auto">
-        <table className="table-fixed text-left  max-w-screen-md divide-y-4">
+        <table className="table-fixed text-left  max-w-screen-md divide-y-2">
           <thead>
             <tr>
               <th className="whitespace-nowrap w-1/6">クラス</th>
