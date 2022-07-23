@@ -76,9 +76,9 @@ export const OtherActivity = () => {
             も併せてご覧いただけます。
           </div>
         </div>
-      </div>
-      <div className="mx-auto my-10 w-60">
-        <NavButton href="contact">ご依頼</NavButton>
+        <div className="mx-auto my-10">
+          <NavButton href="contact">ご依頼</NavButton>
+        </div>
       </div>
     </div>
   );

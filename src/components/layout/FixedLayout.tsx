@@ -16,11 +16,10 @@ export const Layout: FC<Props> = (props) => {
   const router = useRouter();
 
   return (
-    <div className="flex flex-col justify-start w-screen">
+    <div className="grid grid-rows-[1fr,auto] w-screen min-h-screen">
       <NavBarMobile />
       <main className="mx-auto md:w-full">{props.children}</main>
       <Footer />
     </div>
-    // </div>
   );
 };

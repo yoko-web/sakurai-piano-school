@@ -14,7 +14,7 @@ const items = [
   { href: "/#faq", label: "よくあるご質問" },
   { href: "/#fee", label: "レッスン料" },
   { href: "/profile", label: "プロフィール" },
-  { href: "/#contact", label: "Contact" },
+  { href: "/#contact", label: "アクセス・お問合せ" },
   { href: "/#other-activity", label: "その他の活動" },
 ];
 
