@@ -6,7 +6,7 @@ export const Map = () => {
       <Heading2 type="gray">アクセス</Heading2>
       <span className="text-sm">
         ※正確な住所は
-        <a href="#contact" className="text-primary">
+        <a href="#contact2" className="text-primary">
           お問合せ
         </a>
         ください。

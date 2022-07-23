@@ -11,7 +11,9 @@ export const ContactForm = () => {
       id="contact"
     >
       <Heading2 type="gray">お問い合わせ・アクセス</Heading2>
+      <Map />
       <div className="text-left mb-20">
+        <div id="contact2" />
         <Heading3 type="gray">お問い合わせ</Heading3>
         <div>
           仕事中は電話に出られないことが多いので、
@@ -33,9 +35,6 @@ export const ContactForm = () => {
           </div>
         </div>
         <Form />
-      </div>
-      <div className="text-left">
-        <Map />
       </div>
     </div>
   );
