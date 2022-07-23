@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { Heading2, Heading3 } from "../../atoms";
+import { Heading2, Heading3, HowToContact } from "../../atoms";
 import { Form } from "./form";
+import { Map } from "./map";
 
 export const ContactForm = () => {
   return (
@@ -13,11 +14,8 @@ export const ContactForm = () => {
       <div className="text-left mb-20">
         <Heading3 type="gray">お問い合わせ</Heading3>
         <div>
-          仕事中は電話に出られないことが多いので、LINE、
-          <a href={`mailto:mintsakurai@rakuten.jp`} className=" text-primary">
-            メール
-          </a>
-          、問い合わせフォーム、ショートメールなどでお問い合わせいただけますとスムーズにご返答できます。
+          仕事中は電話に出られないことが多いので、
+          <HowToContact />
         </div>
         <div className="flex flex-col py-10">
           <div className="flex max-w-screen-md">
@@ -37,7 +35,7 @@ export const ContactForm = () => {
         <Form />
       </div>
       <div className="text-left">
-        <Heading3 type="gray">アクセス</Heading3>
+        <Map />
       </div>
     </div>
   );

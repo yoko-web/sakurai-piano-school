@@ -1,5 +1,4 @@
-import { Heading2 } from "../../atoms";
-import { siteMetadata } from "../../data/siteMetaData";
+import { Heading2, HowToContact } from "../../atoms";
 import { Table } from "./table";
 
 export const Fee = () => {
@@ -58,11 +57,7 @@ export const Fee = () => {
           （ご兄弟やご家族お二人目から免除。ご友人ご紹介につきましては、ご紹介者様、ご入会者様ともに特典がございます。）
           <br />
           その他のコース・詳細は、
-          <a href="https://line.me/ti/p/nnSoct30EZ">LINE</a>、
-          <a href={`mailto:mintsakurai@rakuten.jp`} className=" text-primary">
-            メール
-          </a>
-          、またはお電話でお問い合わせください。
+          <HowToContact />
         </div>
       </div>
     </div>
