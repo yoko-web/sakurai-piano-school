@@ -48,10 +48,7 @@ export const Profile: NextPage = () => {
         </div>
         <div className="container text-center">
           <Link href="/profile">
-            <a
-              className="bg-gray-800 hover:bg-gray-600 rounded px-3 py-2"
-              href=""
-            >
+            <a className="bg-gray-800 rounded px-3 py-2" href="">
               櫻井桂子について、もっと
             </a>
           </Link>
