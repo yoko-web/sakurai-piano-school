@@ -1,4 +1,5 @@
 import { Heading2 } from "../../atoms";
+import { siteMetadata } from "../../data/siteMetaData";
 import { Table } from "./table";
 
 export const Fee = () => {
@@ -7,33 +8,33 @@ export const Fee = () => {
       className="py-28 text-center px-2 sm:px-6 mx-auto w-screen sm:text-lg max-w-screen-lg"
       id="fee"
     >
-      <Heading2 type="gray">レッスン料</Heading2>
+      <Heading2 type="gray">レッスン料金</Heading2>
       <div className="mt-6 mb-8 text-left">
         どのコースも、マンツーマンが基本です。レッスンは基本コース（年間42回）のほかに、月３回、月2回、月1回など、ご都合に合わせて開設いたします。
         レッスン時間も、30分・40分・1時間など選んでいただけます。
         <br />
         レッスンの概要は、
-        <a className="text-blue-500" href="#kids">
+        <a className="text-primary" href="#kids">
           キッズ入門
         </a>
         、
-        <a className="text-blue-500" href="#student">
+        <a className="text-primary" href="#student">
           スチューデント
         </a>
         、
-        <a className="text-blue-500" href="#adults">
+        <a className="text-primary" href="#adults">
           成人
         </a>
         、
-        <a className="text-blue-500" href="#grade">
+        <a className="text-primary" href="#grade">
           グレード・検定・コンクール受験コース
         </a>
         、
-        <a className="text-blue-500" href="#online">
+        <a className="text-primary" href="#online">
           オンラインレッスン、及びオンライン組合せコース
         </a>
         を参照ください。また、
-        <a className="text-blue-500" href="#trial">
+        <a className="text-primary" href="#trial">
           体験レッスン
         </a>
         は、ご都合に合わせて様々な形の機会を提供しています。
@@ -58,7 +59,9 @@ export const Fee = () => {
           <br />
           その他のコース・詳細は、
           <a href="https://line.me/ti/p/nnSoct30EZ">LINE</a>、
-          <a href="mailto:mintsakurai@rakuten.jp">メール</a>
+          <a href={`mailto:mintsakurai@rakuten.jp`} className=" text-primary">
+            メール
+          </a>
           、またはお電話でお問い合わせください。
         </div>
       </div>

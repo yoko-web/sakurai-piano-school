@@ -50,7 +50,7 @@ export const OtherActivity = () => {
                   </div>
                   <div className="p-2">
                     {item.desc}
-                    <span className="text-blue-500">
+                    <span className="text-primary">
                       {!item.linkTitle ? null : item.linkTitle}
                     </span>
                     <a href={item.href} target="_blank" rel="non noreferrer">
@@ -69,7 +69,7 @@ export const OtherActivity = () => {
               href="https://www.piano.or.jp/concert/accompaniment/bansousha-list.html"
               target="_blank"
               rel="non noreferrer"
-              className="text-blue-500"
+              className="text-primary"
             >
               ピティナの伴奏者紹介サイト
             </a>

@@ -30,7 +30,7 @@ export const Other = () => {
               <td className="p-2 w-4/6">
                 伴奏については、直接お問い合わせいただくか、
                 <a
-                  className="text-blue-500"
+                  className="text-primary"
                   href="https://www.piano.or.jp/concert/accompaniment/bansousha-list.html"
                   rel="noreferrer"
                   target="_blank"

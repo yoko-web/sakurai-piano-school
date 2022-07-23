@@ -8,7 +8,7 @@ type Props = {
 
 export const Heading2: FC<Props> = (props) => {
   return (
-    <div className="text-3xl lg:text-5xl text-center  mb-5 sm:mb-16">
+    <div className="text-3xl lg:text-5xl text-center mb-10 sm:mb-16">
       <h2
         className={cc([
           "font-bold tracking-wide font-sans",
@@ -25,7 +25,7 @@ export const Heading2: FC<Props> = (props) => {
 };
 export const Heading3: FC<Props> = (props) => {
   return (
-    <div className="text-2xl lg:text-3xl text-center  mb-3 sm:mb-8">
+    <div className="text-2xl lg:text-3xl text-center mb-6 sm:mb-8">
       <h3
         className={cc([
           "font-bold tracking-wide font-sans",

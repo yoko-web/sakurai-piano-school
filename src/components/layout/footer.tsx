@@ -1,7 +1,8 @@
 import { IconsBlock } from "../icons";
 import { useInView } from "react-intersection-observer";
+import { NextPage } from "next";
 
-export const Footer = () => {
+export const Footer: NextPage = () => {
   const { inView, ref } = useInView({ threshold: 0 });
 
   return (
@@ -12,7 +13,7 @@ export const Footer = () => {
         <div className="pt-3">Keiko Sakurai</div>
         <div className="pt-3">{`© ${new Date().getFullYear()}`}</div>
         <a
-          // href={`mailto:${siteMetadata.email}`}
+          href={`mailto:mintsakurai@rakuten.jp`}
           title="Email"
           className="flex justify-center items-center w-10 h-10 text-primary rounded-full bg-white mb-10 ml-5"
         >

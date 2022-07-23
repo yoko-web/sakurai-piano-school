@@ -4,7 +4,10 @@ import { Heading2, Heading3 } from "../../atoms";
 
 export const Profile: NextPage = () => {
   return (
-    <div className="bg-primary text-white text-center px-2 sm:px-6" id="intro">
+    <div
+      className="bg-primary text-white text-center px-2 sm:px-6 py-20 lg:py-36"
+      id="intro"
+    >
       <Heading2 type="white"> 楽しさと、美しさを分かち合う</Heading2>
 
       <div className="grid sm:grid-cols-2 gap-4">
