@@ -4,7 +4,7 @@ export const HowToContact = () => {
   return (
     <span>
       LINE、
-      <a href={`mailto:mintsakurai@rakuten.jp`} className=" text-primary">
+      <a href={`mailto:yoko_iwasakijp@yahoo.co.jp`} className=" text-primary">
         メール
       </a>
       、

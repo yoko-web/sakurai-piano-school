@@ -9,7 +9,7 @@ export const Form = () => {
     const res = await fetch("/api/send", {
       body: JSON.stringify({
         subject: "お問い合わせありがとうございます",
-        to: "mintsakurai@rakuten.jp",
+        to: "yoko_iwasakijp@yahoo.co.jp",
         text:
           "以下の内容でお問い合わせを受け付けました。\n折り返しご連絡させていただきます。\n\n" +
           "お名前: " +

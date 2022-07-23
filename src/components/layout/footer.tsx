@@ -13,7 +13,7 @@ export const Footer: NextPage = () => {
         <div className="pt-3">Keiko Sakurai</div>
         <div className="pt-3">{`© ${new Date().getFullYear()}`}</div>
         <a
-          href={`mailto:mintsakurai@rakuten.jp`}
+          href={`mailto:yoko_iwasakijp@yahoo.co.jp`}
           title="Email"
           className="flex justify-center items-center w-10 h-10 text-primary rounded-full bg-white mb-10 ml-5"
         >
