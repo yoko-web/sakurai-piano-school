@@ -16,6 +16,8 @@ const items = [
   { href: "/profile", label: "プロフィール" },
   { href: "/#contact", label: "アクセス・お問合せ" },
   { href: "/#other-activity", label: "その他の活動" },
+  { href: "/gallery", label: "フォトギャラリー" },
+  { href: "/youtube", label: "桂子の音の世界" },
 ];
 
 export const NavBarMobile: NextPage = () => {
@@ -64,12 +66,6 @@ export const NavBarMobile: NextPage = () => {
                 </CustomLink>
               );
             })}
-            <CustomLink
-              href="/gallery"
-              className="flex flex-col p-2 mx-auto text-2xl font-medium tracking-widest text-right text-gray-300 hover:text-gray-100 sm:p-3 sm:tracking-widest rounded-t-sm"
-            >
-              フォトギャラリー
-            </CustomLink>
             <a
               href="https://ameblo.jp/keikeiyanyan/"
               target="_blank"
