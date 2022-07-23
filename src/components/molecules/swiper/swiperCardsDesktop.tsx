@@ -1,27 +1,29 @@
-/* eslint-disable react/jsx-key */
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-cards";
-
-// import "../../../styles/swiper-styles.css";
+// import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 // import required modules
-import { EffectCards } from "swiper";
-
+import { Pagination, Navigation } from "swiper";
 import { data1 } from "./data";
 
-export const SwiperCards = () => {
+export const SwiperCardsDesktop = () => {
   return (
-    <div className="mt-16">
+    <>
       <Swiper
-        effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        className="mySwiper"
+        slidesPerView={1}
+        spaceBetween={30}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="w-screen"
       >
         {data1.map((item) => {
           return (
@@ -32,13 +34,11 @@ export const SwiperCards = () => {
                 backgroundImage: `url('${item.url}')`,
               }}
             >
-              <span className="absolute bottom-0 text-sm mb-3">
-                {item.title}
-              </span>
+              <span className="absolute bottom-0 mb-3">{item.title}</span>
             </SwiperSlide>
           );
         })}
       </Swiper>
-    </div>
+    </>
   );
 };

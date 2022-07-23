@@ -11,8 +11,9 @@ body {
 } */
 
 .swiper {
-  width: 180px;
-  height: 160px;
+  width: 100vw;
+  height: 70vh;
+  /* width:100vw */
 }
 
 .swiper-slide {

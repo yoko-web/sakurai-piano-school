@@ -1,12 +1,17 @@
 import { Layout } from "../components/layout";
-import { SwiperCards } from "../components/molecules/swiper";
+import {
+  SwiperCards,
+  SwiperCardsDesktop,
+} from "../components/molecules/swiper";
 
 const Gallery = () => {
   return (
     <div className="">
       <Layout>
-        <div className="bg-primary w-screen p-3">Gallery</div>
-        <SwiperCards />
+        <div className="bg-primary w-screen p-3 text-white pb-20 text-lg">
+          Gallery
+        </div>
+        <SwiperCardsDesktop />
       </Layout>
     </div>
   );

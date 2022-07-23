@@ -69,8 +69,6 @@ export const data1 = [
     url: "img/images/14.webp",
     title: "デュオツインベル 市民音楽祭にて",
   },
-];
-export const data2 = [
   {
     id: "15",
     url: "img/images/15.webp",
