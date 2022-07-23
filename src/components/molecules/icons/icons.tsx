@@ -1,7 +1,7 @@
 import Lottie from "lottie-react";
 import Facebook from "./38798-facebook-logo-effect.json";
-import Instagram from "./96175-instagram.json";
-import Twitter from "./18887-twitter-notification.json";
+import Instagram from "./69057-instagram.json";
+import Twitter from "./38764-twitter-logo-effect.json";
 import YouTube1 from "./76274-youtube-logo.json";
 import YouTube2 from "./38763-youtube-logo-effect.json";
 import { CSSProperties } from "react";
@@ -14,8 +14,8 @@ type Props = {
 export const IconsBlock = ({ inView }: Props) => {
   return (
     <div className="sticky inset-y-0 -left-4 sm:left-0">
-      <div className="flex justify-center mx-0 sm:mx-auto flex-wrap">
-        <ul className="flex mb-3">
+      <div className="flex flex-col justify-center mx-0 sm:mx-auto flex-wrap">
+        <ul className="flex">
           <li className="sm:pr-3">
             <a
               href="https://www.facebook.com/profile.php?id=100050932493512&fref=profile_friend_list&hc_location=friends_tab"
@@ -35,7 +35,11 @@ export const IconsBlock = ({ inView }: Props) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Lottie animationData={Twitter} className="h-12 w-12 mt-2" />
+              <Lottie
+                animationData={Twitter}
+                className="h-16 w-16"
+                loop={false}
+              />
             </a>
           </li>
           <li className="sm:pr-3">
@@ -59,23 +63,25 @@ export const IconsBlock = ({ inView }: Props) => {
             >
               <Lottie
                 animationData={Instagram}
-                className="h-20 w-20"
+                className="h-14 w-12"
                 loop={false}
               />
             </a>
           </li>
-          <li className="pt-1">
+        </ul>
+        <ul>
+          <li className="flex mx-auto justify-center">
             <a
               href="https://www.youtube.com/user/TWINBELLKEIYAN"
               target="_blank"
               rel="noopener noreferrer"
               className="relative"
             >
-              <div className="absolute -top-3 mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full" />
+              {/* <div className="absolute -top-3 mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full" /> */}
               <Lottie
                 animationData={YouTube1}
                 // loop={false}
-                className="absolute h-16 w-16"
+                className="absolute h-16 w-16 -top-5 -translate-x-5"
               />
             </a>
           </li>
