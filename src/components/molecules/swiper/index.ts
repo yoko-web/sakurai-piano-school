@@ -1,0 +1,1 @@
+export { SwiperCards } from "./swiperCards";
