@@ -35,7 +35,6 @@ export const Form = () => {
 
   return (
     <div className="container mx-auto font-semibold pb-16 sm:px-16">
-      <div className="mb-3">メールによるお問い合わせ</div>
       <form onSubmit={handleRegisterUser}>
         <div className="mb-3 flex flex-col">
           <label htmlFor="email">お名前</label>
@@ -51,7 +50,10 @@ export const Form = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="email">メールアドレス</label>
+          <label htmlFor="email">メールアドレス </label>
+          <span className="text-sm text-gray-600 font-light">
+            (お間違えのないようにお願いします)
+          </span>
           <input
             id="email"
             name="email"

@@ -13,7 +13,11 @@ export const ContactForm = () => {
       <div className="text-left mb-20">
         <Heading3 type="gray">お問い合わせ</Heading3>
         <div>
-          仕事中は電話に出られないことが多いので、LINE、メール、ショートメールなどでお問い合わせいただけますとスムーズにご返答できます。
+          仕事中は電話に出られないことが多いので、LINE、
+          <a href={`mailto:mintsakurai@rakuten.jp`} className=" text-primary">
+            メール
+          </a>
+          、問い合わせフォーム、ショートメールなどでお問い合わせいただけますとスムーズにご返答できます。
         </div>
         <div className="flex flex-col py-10">
           <div className="flex max-w-screen-md">
@@ -27,10 +31,9 @@ export const ContactForm = () => {
           </div>
           <div className="flex my-6">
             <div className="w-36">携帯電話</div>
-            <div className="text-primary">090-3903-1452</div>
+            <div className="">090-3903-1452</div>
           </div>
         </div>
-
         <Form />
       </div>
       <div className="text-left">
