@@ -1,6 +1,6 @@
-import { IconsBlock } from "../icons";
 import { useInView } from "react-intersection-observer";
 import { NextPage } from "next";
+import { IconsBlock } from "../molecules/icons";
 
 export const Footer: NextPage = () => {
   const { inView, ref } = useInView({ threshold: 0 });

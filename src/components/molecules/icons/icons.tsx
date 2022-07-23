@@ -40,7 +40,7 @@ export const IconsBlock = ({ inView }: Props) => {
           </li>
           <li className="sm:pr-3">
             <a
-              href="https://www.youtube.com/user/TWINBELLKEIYAN"
+              href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -66,7 +66,7 @@ export const IconsBlock = ({ inView }: Props) => {
           </li>
           <li className="pt-1">
             <a
-              href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
+              href="https://www.youtube.com/user/TWINBELLKEIYAN"
               target="_blank"
               rel="noopener noreferrer"
               className="relative"
