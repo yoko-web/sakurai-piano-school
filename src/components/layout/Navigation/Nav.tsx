@@ -38,19 +38,13 @@ export const NavBarMobile: NextPage = () => {
       <div className="fixed right-3 sm:right-5 top-10 z-50 px-2 pt-1 rounded xl:right-24">
         <button
           type="button"
-          className="relative mx-1 w-24 h-24 rounded-full bg-white/50 xl:w-32 xl:h-32"
+          className="relative mx-1 w-24 h-24 rounded bg-white/20 border-2 border-dashed border-black/40 xl:w-32 xl:h-32"
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
-          <div className="absolute transform translate-x-[80%] text-lg text-black shadow-white animate-pulse font-semibold tracking-widest z-50 font-mono">
-            ナビ
-          </div>
-          <div className="absolute transform translate-x-[80%] text-lg text-white shadow-white animate-pulse font-bold tracking-wider font-mono">
-            ナビ
-          </div>
           <Lottie
             animationData={musicnote}
-            className="h-24 w-24 xl:w-23 xl:h-32"
+            className="h-24 w-24 xl:w-23 xl:h-32 hover:hidden"
           />
         </button>
         <div
