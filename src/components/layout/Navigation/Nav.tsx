@@ -13,7 +13,7 @@ const items = [
   { href: "/#voice", label: "生徒さんの声" },
   { href: "/#faq", label: "よくあるご質問" },
   { href: "/#fee", label: "レッスン料" },
-  { href: "/#profile-main", label: "プロフィール" },
+  { href: "/profile", label: "プロフィール" },
   { href: "/#contact", label: "Contact" },
   { href: "/#other-activity", label: "その他の活動" },
 ];
