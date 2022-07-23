@@ -10,6 +10,7 @@ import { Footer } from "../components/layout/footer";
 import { FAQ } from "../components/organisms/FAQ";
 import { Fee } from "../components/organisms/fee";
 import { OtherActivity } from "../components/organisms/other";
+import { ContactForm } from "../components/organisms/contact";
 
 type Props = {
   className?: string;
@@ -38,6 +39,7 @@ const Home: FC<Props> = () => {
       <FAQ />
       <Fee />
       <OtherActivity />
+      <ContactForm />
       <Footer />
     </div>
   );
