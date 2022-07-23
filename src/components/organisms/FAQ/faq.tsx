@@ -4,7 +4,7 @@ import { data } from "./data";
 
 const config = {
   animate: true,
-  arrowIcon: "A",
+  arrowIcon: "♪",
   tabFocus: true,
 };
 
