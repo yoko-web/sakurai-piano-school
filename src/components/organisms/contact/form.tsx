@@ -8,7 +8,7 @@ export const Form = () => {
     const res = await fetch("/api/send", {
       body: JSON.stringify({
         subject: "お問い合わせありがとうございます",
-        to: "yoko_iwasakijp@yahoo.co.jp",
+        to: "mintsakurai@rakuten.jp",
         text:
           "以下の内容でお問い合わせを受け付けました。\n折り返しご連絡させていただきます。\n\n" +
           "お名前: " +
@@ -43,7 +43,7 @@ export const Form = () => {
             id="fullname"
             name="fullname"
             type="text"
-            className="mt-1 w-full p-3 focus:outline-primary bg-blue-50"
+            className="mt-1 w-full p-3 focus:outline-primary bg-primary/10"
             placeholder="氏名"
             autoComplete="name"
             required
@@ -56,7 +56,7 @@ export const Form = () => {
             id="email"
             name="email"
             type="email"
-            className="mt-1 w-full p-3 focus:outline-primary bg-blue-50"
+            className="mt-1 w-full p-3 focus:outline-primary bg-primary/10"
             placeholder="例：name@example.com"
             autoComplete="email"
             required
@@ -67,7 +67,7 @@ export const Form = () => {
           <textarea
             id="message"
             name="message"
-            className="mt-1 w-full p-3 focus:outline-primary bg-blue-50"
+            className="mt-1 w-full p-3 focus:outline-primary bg-primary/10"
             rows={3}
             placeholder=""
             required
