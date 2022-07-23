@@ -3,7 +3,7 @@ import { FC, ReactNode } from "react";
 
 type Props = {
   children: ReactNode;
-  type: "white" | "gray";
+  type: "white" | "gray" | "primary";
 };
 
 export const Heading2: FC<Props> = (props) => {
@@ -15,6 +15,7 @@ export const Heading2: FC<Props> = (props) => {
           {
             "text-white": props.type === "white",
             "text-gray-800": props.type === "gray",
+            "text-primary": props.type === "primary",
           },
         ])}
       >
@@ -32,6 +33,7 @@ export const Heading3: FC<Props> = (props) => {
           {
             "text-white": props.type === "white",
             "text-gray-800": props.type === "gray",
+            "text-primary": props.type === "primary",
           },
         ])}
       >

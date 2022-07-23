@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { Heading3 } from "../../atoms";
 
 export const Form = () => {
   const router = useRouter();
@@ -35,6 +36,7 @@ export const Form = () => {
 
   return (
     <div className="container mx-auto font-semibold pb-16 sm:px-16">
+      <Heading3 type="primary">お問い合わせフォーム</Heading3>
       <form onSubmit={handleRegisterUser}>
         <div className="mb-3 flex flex-col">
           <label htmlFor="email">お名前</label>
