@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
+import Link from "next/link";
 import { Heading2, Heading3 } from "../../atoms";
 
 export const Profile: NextPage = () => {
@@ -46,12 +47,14 @@ export const Profile: NextPage = () => {
           </div>
         </div>
         <div className="container text-center">
-          <a
-            href="#profile-main"
-            className="bg-gray-800 hover:bg-gray-600 rounded px-3 py-2"
-          >
-            櫻井桂子について、もっと
-          </a>
+          <Link href="/profile">
+            <a
+              className="bg-gray-800 hover:bg-gray-600 rounded px-3 py-2"
+              href=""
+            >
+              櫻井桂子について、もっと
+            </a>
+          </Link>
         </div>
       </div>
     </div>
