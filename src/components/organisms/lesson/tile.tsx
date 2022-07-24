@@ -67,7 +67,7 @@ export const Tiles = () => {
       {data.map((item) => {
         return (
           <div
-            className="relative max-w-[530px] mb-2 bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 align-baseline"
+            className="relative max-w-[530px] bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 align-baseline"
             key={item.id}
           >
             <a href={item.href}>
