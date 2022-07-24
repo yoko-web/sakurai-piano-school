@@ -1,5 +1,4 @@
 import React from "react";
-import { Heading3 } from "../../atoms";
 import { data } from "./data";
 
 export const YouTubeTile = () => {
