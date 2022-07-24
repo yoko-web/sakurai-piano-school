@@ -23,10 +23,12 @@ export const ContactForm = () => {
           <div className="flex max-w-screen-md">
             <div className="w-36">LINE</div>
             <div className="w-2/3">
-              <a href="https://line.me/ti/p/nnSoct30EZ">
+              <a
+                href="https://line.me/ti/p/nnSoct30EZ"
+                aria-label="link to LINE"
+              >
                 <img loading="lazy" src="img/line-address.jpg" alt="" />
               </a>
-              <a href="https://line.me/ti/p/nnSoct30EZ"></a>
             </div>
           </div>
           <div className="flex my-6">

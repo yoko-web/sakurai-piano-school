@@ -22,23 +22,43 @@ export const CourseDetail: NextPage = (props) => {
         レッスン時間も、30分・40分・1時間など選んでいただけます。
         <br />
         レッスンの概要は、下表
-        <a className="text-primary" href="#kids">
+        <a
+          className="text-primary"
+          href="#kids"
+          aria-label="link to kids detail"
+        >
           キッズ入門
         </a>
         、
-        <a className="text-primary" href="#student">
+        <a
+          className="text-primary"
+          href="#student"
+          aria-label="link to student detail"
+        >
           スチューデント
         </a>
         、
-        <a className="text-primary" href="#adults">
+        <a
+          className="text-primary"
+          href="#adults"
+          aria-label="link to adult detail"
+        >
           成人
         </a>
         、
-        <a className="text-primary" href="#grade">
+        <a
+          className="text-primary"
+          href="#grade"
+          aria-label="link to grade detail"
+        >
           グレード・検定・コンクール受験コース
         </a>
         、
-        <a className="text-primary" href="#online">
+        <a
+          className="text-primary"
+          href="#online"
+          aria-label="link to online detail"
+        >
           オンラインレッスン、及びオンライン組合せコース
         </a>
         を参照ください。また、

@@ -46,16 +46,6 @@ export const Profile: NextPage = () => {
             </div>
           </div>
         </div>
-        {/* <div className="container text-center">
-          <Link href="/profile">
-            <a
-              className="bg-gray-800 rounded px-3 py-2 active:bg-primary"
-              href=""
-            >
-              櫻井桂子について、もっと
-            </a>
-          </Link>
-        </div> */}
       </div>
     </div>
   );

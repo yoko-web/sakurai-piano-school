@@ -70,7 +70,7 @@ export const Tiles = () => {
             className="relative max-w-[530px] bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 align-baseline"
             key={item.id}
           >
-            <a href={item.href}>
+            <a href={item.href} aria-label={`link to ${item.title}`}>
               <div className="absolute bottom-0 left-0 w-full bg-primary/80 rounded">
                 <div className="pt-6 px-3 mb-1 text-lg font-bold">
                   {item.title}

@@ -21,6 +21,7 @@ export const IconsBlock = ({ inView }: Props) => {
               href="https://www.facebook.com/profile.php?id=100050932493512&fref=profile_friend_list&hc_location=friends_tab"
               target="_blank"
               rel="noreferrer"
+              aria-label="link to facebook"
             >
               <Lottie
                 animationData={Facebook}
@@ -34,6 +35,7 @@ export const IconsBlock = ({ inView }: Props) => {
               href="https://twitter.com/PianoSakurai"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="link to twitter"
             >
               <Lottie
                 animationData={Twitter}
@@ -47,6 +49,7 @@ export const IconsBlock = ({ inView }: Props) => {
               href="https://www.youtube.com/channel/UCkCJCnxqzGNPjdZOqEnJAkQ"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="link to youtube"
             >
               <Lottie
                 animationData={YouTube2}
@@ -60,6 +63,7 @@ export const IconsBlock = ({ inView }: Props) => {
               href="https://www.instagram.com/mintsakurai"
               target="_blank"
               rel="noreferrer"
+              aria-label="link to instagram"
             >
               <Lottie
                 animationData={Instagram}
@@ -76,6 +80,7 @@ export const IconsBlock = ({ inView }: Props) => {
               target="_blank"
               rel="noopener noreferrer"
               className="relative"
+              aria-label="link to youtube"
             >
               {/* <div className="absolute -top-3 mt-6 ml-4 h-8 w-8 bg-gray-100/50 rounded-full" /> */}
               <Lottie

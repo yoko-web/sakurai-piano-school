@@ -53,7 +53,12 @@ export const OtherActivity = () => {
                     <span className="text-primary">
                       {!item.linkTitle ? null : item.linkTitle}
                     </span>
-                    <a href={item.href} target="_blank" rel="non noreferrer">
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="non noreferrer"
+                      aria-label={item.linkTitle}
+                    >
                       {item.linkTitle}
                     </a>
                     {item.desc1}
@@ -70,6 +75,7 @@ export const OtherActivity = () => {
               target="_blank"
               rel="non noreferrer"
               className="text-primary"
+              aria-label="ピティナの伴奏者紹介サイト"
             >
               ピティナの伴奏者紹介サイト
             </a>
