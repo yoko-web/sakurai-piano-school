@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { Heading3 } from "../../atoms";
+import { siteMetadata } from "../../data/siteMetadata";
 
 export const Form = () => {
   const router = useRouter();
@@ -9,7 +10,7 @@ export const Form = () => {
     const res = await fetch("/api/send", {
       body: JSON.stringify({
         subject: "お問い合わせありがとうございます",
-        to: "yoko_iwasakijp@yahoo.co.jp",
+        to: siteMetadata.email,
         text:
           "以下の内容でお問い合わせを受け付けました。\n折り返しご連絡させていただきます。\n\n" +
           "お名前: " +

@@ -1,10 +1,11 @@
 import React from "react";
+import { siteMetadata } from "../../data/siteMetadata";
 
 export const HowToContact = () => {
   return (
     <span>
       LINE、
-      <a href={`mailto:yoko_iwasakijp@yahoo.co.jp`} className=" text-primary">
+      <a href={`mailto:${siteMetadata.email}`} className=" text-primary">
         メール
       </a>
       、

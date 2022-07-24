@@ -1,6 +1,7 @@
 import { useInView } from "react-intersection-observer";
 import { NextPage } from "next";
 import { IconsBlock } from "../molecules/icons";
+import { siteMetadata } from "../data/siteMetadata";
 
 export const Footer: NextPage = () => {
   const { inView, ref } = useInView({ threshold: 0 });
@@ -10,10 +11,10 @@ export const Footer: NextPage = () => {
       <IconsBlock inView={inView} />
       <div className="flex justify-center my-4"></div>
       <div className="flex mb-2 space-x-2 text-sm  text-white font-bold capitalize">
-        <div className="pt-3">Keiko Sakurai</div>
+        <div className="pt-3">{siteMetadata.author}</div>
         <div className="pt-3">{`© ${new Date().getFullYear()}`}</div>
         <a
-          href={`mailto:yoko_iwasakijp@yahoo.co.jp`}
+          href={`mailto:${siteMetadata.email}`}
           title="Email"
           className="flex justify-center items-center w-10 h-10 text-primary rounded-full bg-white mb-10 ml-5"
         >
