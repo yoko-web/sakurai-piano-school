@@ -71,7 +71,7 @@ export const Tiles = () => {
             key={item.id}
           >
             <a href={item.href}>
-              <div className="absolute bottom-3 right-4 bg-primary/80 rounded">
+              <div className="absolute bottom-0 left-0 w-full bg-primary/80 rounded">
                 <div className="pt-6 px-3 mb-1 text-lg font-bold">
                   {item.title}
                 </div>
