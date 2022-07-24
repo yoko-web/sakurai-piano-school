@@ -4,31 +4,31 @@ const data = [
   {
     id: "1",
     title: "キッズ（入門）",
-    src: "img/lesson-kids.jpg",
+    src: "img/lesson-kids.webp",
     href: "#kids",
   },
   {
     id: "2",
     title: "スチューデント 初・中級・上級",
-    src: "img/lesson-student.jpg",
+    src: "img/lesson-student.webp",
     href: "#student",
   },
   {
     id: "3",
     title: "成人 ヒーリングクラス・スキルクラス",
-    src: "img/lesson-adult.jpg",
+    src: "img/lesson-adult.webp",
     href: "#adult",
   },
   {
     id: "4",
     title: "グレード・検定・コンクール受験コース",
-    src: "img/lesson-competition1.jpg",
+    src: "img/lesson-competition1.webp",
     href: "#grade",
   },
   {
     id: "5",
     title: "オンラインレッスン、及びオンライン組合せコース",
-    src: "img/lesson-online.jpg",
+    src: "img/lesson-online.webp",
     href: "#online",
   },
   {
@@ -38,7 +38,7 @@ const data = [
     sub1: "ご友人同士の連弾レッスン\n\n",
     sub2: "ソルフェージュコース\n\n",
     sub3: "音大受験サポート",
-    src: "img/mum-and-kid.jpg",
+    src: "img/mum-and-kid.webp",
     href: "#others",
   },
   {
@@ -47,7 +47,7 @@ const data = [
     sub0: "来室カンファレンス\n\n",
     sub1: "オンラインカンファレンス\n\n",
     sub2: "(ご入会に関するご相談や質問をお受けしたり、少しピアノに触っていただけます。)",
-    src: "img/piano.jpg",
+    src: "img/piano.webp",
     href: "#conference",
   },
   {
@@ -56,7 +56,7 @@ const data = [
     sub0: "来室体験レッスン\n\n",
     sub1: "オンライン体験レッスン\n\n",
     sub2: "(体験レッスンは、ご都合に合わせて様々な形の機会を提供しています。)",
-    src: "img/piano.jpg",
+    src: "img/piano.webp",
     href: "#trial",
   },
 ];

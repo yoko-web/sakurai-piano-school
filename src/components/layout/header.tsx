@@ -6,7 +6,7 @@ export const HeaderBlock: NextPage = () => {
     <div
       className="h-screen relative w-full py-[8rem] bg-center bg-cover flex justify-around"
       style={{
-        backgroundImage: "url('/img/bg-meguro1.jpg')",
+        backgroundImage: "url('/img/bg-meguro1.webp')",
       }}
       id="page-top"
     >

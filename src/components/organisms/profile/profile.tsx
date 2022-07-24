@@ -16,7 +16,7 @@ export const Profile: NextPage = () => {
           <img
             loading="lazy"
             className="img-fluid"
-            src="img/profile5_original.jpg"
+            src="img/profile5_original.webp"
             alt="櫻井桂子"
           />
         </div>
