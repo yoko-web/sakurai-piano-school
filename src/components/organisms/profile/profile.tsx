@@ -12,7 +12,7 @@ export const Profile: NextPage = () => {
         <div className="px-3 sm:px-5">
           <img
             loading="lazy"
-            className="img-fluid"
+            className="max-w-full"
             src="img/profile5_original.webp"
             alt="櫻井桂子"
           />
