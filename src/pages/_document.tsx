@@ -34,6 +34,14 @@ const MyDocument: NextPage = () => {
           property="og:image"
           content="https://sakuraipiano.com/img/twitter-ogp.webp"
         />
+        <meta
+          property="og:image:secure_url"
+          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+        />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="675" />
+        <meta property="og:image:alt" content="Sakurai Piano School" />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
