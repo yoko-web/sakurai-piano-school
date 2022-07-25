@@ -288,6 +288,10 @@ const MyDocument: NextPage = () => {
           href="/favicon/icon-32x32.png"
         />
         <link rel="manifest" href="/favicon/manifest.json"></link>
+        <meta
+          name="google-site-verification"
+          content="lOZ0gGomD4MYc0axD9rJa-DOUM4psUWJhNWKn6-zLnk"
+        />
       </Head>
       <body className="antialiased text-black bg-white">
         <Main />
