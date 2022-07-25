@@ -21,7 +21,7 @@ const MyDocument: NextPage = () => {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sakuraipiano.com/" />
+        <meta property="og:url" content="https://www.sakuraipiano.com/" />
         <meta
           property="og:title"
           content="音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール"
@@ -32,11 +32,11 @@ const MyDocument: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+          content="https://www.sakuraipiano.com/img/twitter-ogp.webp"
         />
         <meta
           property="og:image:secure_url"
-          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+          content="https://www.sakuraipiano.com/img/twitter-ogp.webp"
         />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
@@ -45,7 +45,7 @@ const MyDocument: NextPage = () => {
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://sakuraipiano.com/" />
+        <meta property="twitter:url" content="https://www.sakuraipiano.com/" />
         <meta
           property="twitter:title"
           content="音の世界へ - 座間市のピアノ教室 櫻井ピアノスクール"
@@ -56,7 +56,7 @@ const MyDocument: NextPage = () => {
         />
         <meta
           property="twitter:image"
-          content="https://sakuraipiano.com/img/twitter-ogp.webp"
+          content="https://www.sakuraipiano.com/img/twitter-ogp.webp"
         />
         <meta name="twitter:image:width" content="1200" />
         <meta name="twitter:image:height" content="630" />
