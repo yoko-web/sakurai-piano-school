@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
+
 const data = [
   {
     id: "1",
@@ -61,32 +63,28 @@ const data = [
 
 export const Tiles = () => {
   return (
-    <div className="flex justify-center mx-auto flex-wrap font-sans">
+    <ul className="flex justify-center mx-auto flex-wrap">
       {data.map((item) => {
         return (
-          <div
-            className="relative max-w-[530px] bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300"
-            key={item.id}
-          >
-            <a href={item.href} aria-label={`link to ${item.title}`}>
-              <div className="absolute bottom-0 left-0 w-full bg-primary/80 rounded">
-                <div className="pt-6 px-3 mb-1 text-lg font-bold ">
-                  {item.title}
+          <li key={item.id} className="relative">
+            <Link href={item.href}>
+              <a aria-label="Read more">
+                <div
+                  className="flex p-1 h-96 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[0.99] duration-300 sm:p-3 max-w-[530px] w-screen"
+                  style={{
+                    background: `center/cover no-repeat url(${item.src})`,
+                  }}
+                >
+                  <div className="absolute bottom-0 left-0 px-2 pt-2 h-24 w-full bg-primary/80">
+                    <div className="mb-2 font-bold ">{item.title}</div>
+                    <div className="text-sm">{item.sub0}</div>
+                  </div>
                 </div>
-                <div className="mb-1 text-lg text-left pl-2 ml-2">
-                  {item.sub0 ? item.sub0 : null}
-                </div>
-              </div>
-              <img
-                loading="lazy"
-                className="w-full h-auto"
-                src={item.src}
-                alt={item.title}
-              />
-            </a>
-          </div>
+              </a>
+            </Link>
+          </li>
         );
       })}
-    </div>
+    </ul>
   );
 };
