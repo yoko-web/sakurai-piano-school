@@ -75,7 +75,7 @@ export const Tiles = () => {
                     background: `center/cover no-repeat url(${item.src})`,
                   }}
                 >
-                  <div className="absolute bottom-0 left-0 px-2 pt-2 h-24 w-full bg-primary/80">
+                  <div className="absolute bottom-0 left-0 px-2 pt-2 sm:h-[90px] h-28 w-full bg-primary/80 align-middle">
                     <div className="mb-2 font-bold ">{item.title}</div>
                     <div className="text-sm">{item.sub0}</div>
                   </div>
