@@ -4,12 +4,12 @@ import { Heading2, Heading3 } from "../../atoms";
 export const ProfileMain = () => {
   return (
     <div
-      className="text-center mx-auto w-screen sm:text-lg max-w-screen-lg py-36 bg-gray-700/30"
+      className="text-center mx-auto w-screen sm:text-lg py-36 bg-gray-700/20"
       id="profile-main"
     >
-      <Heading2 type="white"> 講師プロフィール</Heading2>
-      <Heading3 type="white"> 櫻井桂子（さくらいけいこ）</Heading3>
-      <div className="mt-6 mb-8 text-left p-5 sm:p-10 lg:p-20 text-white  shadow-black">
+      <div className="mt-6 mb-8 text-left p-5 sm:p-10 lg:p-20 text-white max-w-4xl shadow-black">
+        <Heading2 type="white"> 講師プロフィール</Heading2>
+        <Heading3 type="white"> 櫻井桂子（さくらいけいこ）</Heading3>
         国立音楽大学附属音楽高校を経て国立音楽大学器楽学科ピアノ専攻卒業。
         <br />
         佐藤優子、平沢美知、藤澤克江各師に師事。
