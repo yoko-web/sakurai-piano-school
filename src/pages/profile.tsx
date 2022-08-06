@@ -11,9 +11,9 @@ const Gallery = () => {
             講師プロフィール - 座間市のピアノ教室 櫻井ピアノスクール
           </title>
         </Head>
-        <div className=" bg-primary">
+        <div className=" bg-primary lg:py-20">
           <div
-            className=" bg-cover bg-top max-w-7xl mx-auto "
+            className="bg-cover bg-top max-w-4xl mx-auto"
             style={{
               backgroundImage: "url('/img/profile2.webp')",
             }}
