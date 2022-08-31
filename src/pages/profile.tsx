@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Layout } from "../components/layout";
 import { ProfileMain } from "../components/organisms/profile";
 
-const Gallery = () => {
+const Profile = () => {
   return (
     <div className="bg-primary">
       <Layout>
@@ -26,4 +26,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Profile;
