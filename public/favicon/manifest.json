@@ -3,8 +3,7 @@
   "short_name": "Sakurai Piano",
   "lang": "ja",
   "description": "座間市のピアノ教室 櫻井ピアノスクールのご案内。音楽を通してワクワクすること。みんなが楽しくなることをプロデュースすること。音楽への情熱を楽しさにすること。これらを最も大切なことと考え、日々レッスンに当たらさせていただいています。",
-   "start_url": "https://www.sakuraipiano.com/",
-  "start_url": "/",
+  "start_url": "https://www.sakuraipiano.com/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#fff",
@@ -64,7 +63,7 @@
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose":"maskable"
+      "purpose": "maskable"
     }
   ]
 }
