@@ -15,6 +15,7 @@ const items = [
   { href: "/#fee", label: "レッスン料金" },
   { href: "/profile", label: "プロフィール" },
   { href: "/#contact", label: "アクセス・お問合せ" },
+  { href: "/#twitter", label: "最新情報" },
   { href: "/#other-activity", label: "その他の活動" },
   { href: "/gallery", label: "フォトギャラリー" },
   { href: "/youtube", label: "桂子の音の世界" },
