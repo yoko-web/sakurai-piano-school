@@ -68,7 +68,7 @@ export const Tiles = () => {
         return (
           <li key={item.id} className="relative">
             <Link href={item.href}>
-              <a aria-label="Read more">
+              <div aria-label="Read more">
                 <div
                   className="flex p-1 h-96 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-[0.99] duration-300 sm:p-3 max-w-[530px] w-screen"
                   style={{
@@ -80,7 +80,7 @@ export const Tiles = () => {
                     <div className="mb-2 text-sm">{item.sub0}</div>
                   </div>
                 </div>
-              </a>
+              </div>
             </Link>
           </li>
         );
