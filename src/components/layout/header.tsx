@@ -11,7 +11,7 @@ export const HeaderBlock: NextPage = () => {
       id="page-top"
     >
       <div className="absolute max-h-screen min-w-screen bg-black/20 top-[20%] p-20">
-        <div className="mb-16 text-xl md:text-2xl text-primary font-bold font-mono text-right">
+        <div className="mb-16 text-xl md:text-2xl text-primary font-mono text-right bg-white/90 p-1 rounded-r">
           ピアノ科が教える本格ピアノ教室
         </div>
         <div className="container text-left my-auto">
