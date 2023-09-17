@@ -12,7 +12,7 @@ export const HeaderBlock: NextPage = () => {
     >
       <div className="absolute h-screen w-screen bg-black/20 top-0 px-10 py-20 sm:p-20">
         <span className="text-xl md:text-2xl text-primary font-mono  p-1 sm:bg-white rounded-r text-right">
-          ピアノ科が教える本格ピアノ教室
+          ピアノ科が教える 本格ピアノ教室
         </span>
         <div className="flex flex-col justify-around text-left h-3/4">
           <h1 className="text-5xl md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
