@@ -10,20 +10,20 @@ export const HeaderBlock: NextPage = () => {
       }}
       id="page-top"
     >
-      <div className="mb-16 text-xl md:text-2xl text-primary font-mono text-left p-1 rounded-r">
-        ピアノ科が教える本格ピアノ教室
-      </div>
-      <div className="absolute max-h-screen min-w-screen bg-black/20 top-[20%] p-20">
-        <div className="container text-left my-auto">
-          <h1 className="my-16 text-5xl  md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
+      <div className="absolute h-screen w-screen bg-black/20 top-0 p-20">
+        <span className="text-xl md:text-2xl text-primary font-mono  p-1 bg-white rounded-r text-right">
+          ピアノ科が教える本格ピアノ教室
+        </span>
+        <div className="flex flex-col justify-around text-left h-3/4">
+          <h1 className="text-5xl  md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
             音の世界へ
           </h1>
-          <h3 className="mb-10 text-xl md:text-2xl text-white font-bold">
+          <h3 className="text-xl md:text-2xl text-white font-bold">
             あなたの音楽旅行は 櫻井ピアノスクール とともにここから始まります。
             <br />
             貴方の目的地はどこですか？
           </h3>
-          <div className="py-10 text-center">
+          <div className="text-center mb-16">
             <NavButton href="intro">楽しさと、美しさを分かち合う</NavButton>
           </div>
         </div>
