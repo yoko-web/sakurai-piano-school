@@ -10,10 +10,10 @@ export const HeaderBlock: NextPage = () => {
       }}
       id="page-top"
     >
+      <div className="mb-16 text-xl md:text-2xl text-primary font-mono text-left p-1 rounded-r">
+        ピアノ科が教える本格ピアノ教室
+      </div>
       <div className="absolute max-h-screen min-w-screen bg-black/20 top-[20%] p-20">
-        <div className="mb-16 text-xl md:text-2xl text-primary font-mono text-right bg-white/90 p-1 rounded-r">
-          ピアノ科が教える本格ピアノ教室
-        </div>
         <div className="container text-left my-auto">
           <h1 className="my-16 text-5xl  md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
             音の世界へ
