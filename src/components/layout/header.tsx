@@ -15,7 +15,7 @@ export const HeaderBlock: NextPage = () => {
           ピアノ科が教える本格ピアノ教室
         </span>
         <div className="flex flex-col justify-around text-left h-3/4">
-          <h1 className="text-5xl  md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
+          <h1 className="text-5xl md:text-7xl text-white font-black shadow-sm sm:bg-none whitespace-nowrap">
             音の世界へ
           </h1>
           <h3 className="text-xl md:text-2xl text-white font-bold">
@@ -23,7 +23,7 @@ export const HeaderBlock: NextPage = () => {
             <br />
             貴方の目的地はどこですか？
           </h3>
-          <div className="text-center mb-16">
+          <div className="text-center mt-16">
             <NavButton href="intro">楽しさと、美しさを分かち合う</NavButton>
           </div>
         </div>
