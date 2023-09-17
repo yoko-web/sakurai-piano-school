@@ -6,13 +6,11 @@ import { LessonSection } from "../components/organisms/lesson";
 import { CourseDetail } from "../components/organisms/courseDetail/course";
 import { Voices } from "../components/organisms/voices";
 import { NavBarMobile } from "../components/layout/Navigation";
-import { Footer } from "../components/layout/footer";
 import { FAQ } from "../components/organisms/FAQ";
 import { Fee } from "../components/organisms/fee";
 import { OtherActivity } from "../components/organisms/other";
 import { ContactForm } from "../components/organisms/contact";
 import { Layout } from "../components/layout";
-import { TwitterSec } from "../components/organisms/twitter/twitterSec";
 
 type Props = {
   className?: string;
@@ -41,7 +39,6 @@ const Home: FC<Props> = () => {
         <Voices />
         <FAQ />
         <Fee />
-        <TwitterSec />
         <OtherActivity />
         <ContactForm />
       </Layout>
