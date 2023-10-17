@@ -41,7 +41,7 @@ export const NavBarMobile: NextPage = () => {
       <div className="fixed bottom-4 right-3 sm:right-5 z-50 px-2 pt-1 rounded xl:right-24">
         <button
           type="button"
-          className="relative mx-1 w-24 h-24 rounded-tl-full bg-white/10 xl:w-30 xl:h-32 border-r-slate-200 border-r-4 border-dashed"
+          className="relative mx-1 w-24 h-24 rounded-tl-full bg-white/30 xl:w-30 xl:h-32 border-r-slate-200 border-r-4 border-dashed"
           aria-label="Toggle Menu"
           onClick={handleOnToggleNav}
         >
