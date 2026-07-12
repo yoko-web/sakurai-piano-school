@@ -1,41 +1,25 @@
 import { useRouter } from "next/router";
 import { Heading3 } from "../../atoms";
 import { siteMetadata } from "../../data/siteMetadata";
+import { buildMailtoUrl, CONTACT_SUBJECT } from "../../../lib/mailto";
 
 export const Form = () => {
   const router = useRouter();
 
-  const handleRegisterUser = async (
-    event: React.FormEvent<HTMLFormElement>
-  ) => {
+  const handleRegisterUser = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const form = event.currentTarget;
-    const res = await fetch("/api/send", {
-      body: JSON.stringify({
-        subject: "お問い合わせありがとうございます",
-        to: siteMetadata.email,
-        text: `以下の内容でお問い合わせを受け付けました。
-折り返しご連絡させていただきます。
 
-お名前: ${form.fullname.value} 様
+    const subject = CONTACT_SUBJECT;
+    const body = `以下の内容でお問い合わせをさせていただきます。
 
-メールアドレス: ${form.email.value}
+お名前： ${form.fullname.value} 様
 
 お問い合わせ内容:
-${form.message.value}`,
-        email: form.email.value,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-      method: "POST",
-    });
+${form.message.value}`;
 
-    const result = await res.json();
-    router.push({
-      pathname: "/success",
-      query: result,
-    });
+    window.location.href = buildMailtoUrl(siteMetadata.email, subject, body);
+    router.push("/success?mode=mailto");
   };
 
   return (
@@ -55,21 +39,7 @@ ${form.message.value}`,
             minLength={3}
           />
         </div>
-        <div className="mb-3">
-          <label htmlFor="email">メールアドレス </label>
-          <span className="text-sm text-gray-600 font-light">
-            (お間違えのないようにお願いします)
-          </span>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            className="mt-1 w-full p-3 focus:outline-primary bg-primary/10"
-            placeholder="例：name@example.com"
-            autoComplete="email"
-            required
-          />
-        </div>
+
         <div className="mb-3">
           <label htmlFor="message">お問合せ内容</label>
           <textarea
@@ -86,7 +56,7 @@ ${form.message.value}`,
             className="inline-block bg-primary text-white text=lg px-10 py-6 rounded font-bold hover:pointer-events-auto"
             type="submit"
           >
-            送信
+            送信内容を確認
           </button>
         </div>
       </form>
