@@ -10,7 +10,7 @@ import "swiper/css/effect-cards";
 // import "../../../styles/swiper-styles.css";
 
 // import required modules
-import { EffectCards } from "swiper";
+import { EffectCards } from "swiper/modules";
 
 import { data1 } from "./data";
 
